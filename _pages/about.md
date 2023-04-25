@@ -9,15 +9,25 @@ layout: post
 I am striving to become a perceptive developer and a proficient, agile engineer. I believe that, ultimately, all the knowledge I've gained will harmonize at the end of this journey. Currently, I work as a developer in Korea, with a strong passion for artificial intelligence. My experience includes project execution and planning for major corporations such as the Hyundai Motor Group.
 
 
-#### :star2: *Where there’s a will, there’s a way.*
+#### *Where there’s a will, there’s a way.*
 I am training to become a insightful developer and a skillful and quick-witted engineer. <br>
 
-
+<br>
 
 #### *Projects*
-  [1] ExceptNotifier [Github](https://github.com/dsdanielpark/ExceptNotifier)
-  - The Python package ExceptNotifier enhances the try-except statement, allowing you to receive detailed error messages via email or messenger apps.
+  [1] ExceptNotifier 
+  - The Python package ExceptNotifier enhances the try-except statement, allowing you to receive detailed error messages via email or messenger apps. [[Github]](https://github.com/dsdanielpark/ExceptNotifier)
   
+  [2] GPT-BERT-Medical-QA-Chatbot 
+  - Medical domain-focused GPT-2 fine-tuning, optimization, and lightweighting research repository (compared to GPT-4). [[Github]](https://github.com/DSDanielPark/medical-qa-bert-chatgpt) 
+
+  [3] Korean-news-topic-classification-using-KO-BERT 
+  - Model for classifying Korean news articles into eight pre-defined categories using a fine-tuned Korean BERT news article classifier. [[Github]](https://github.com/DSDanielPark/fine-tuned-korean-bert-news-article-classifier)
+
+  [4] Multi-objective-recommender 
+  - Recommendation system model based on e-commerce log data that utilizes ranking and re-ranking techniques. The model aims to improve the accuracy of product recommendations by incorporating user behavior data such as click-through rates and purchase history. [[GitHub]](https://github.com/DSDanielPark/kaggle2023-multi-objective-recommender)
+
+
 
  
 #### *Sites*
