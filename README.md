@@ -7,3 +7,11 @@
 - :sunrise: Natural language processing: 
 - :baby_chick: Computer Vision: 
 - :blossom: Time series data analysis and prediction: 
+
+<br><Br>
+
+Jekyll with the following:
+- Ruby version 2.5.0 or higher
+- RubyGems
+- GCC and Make
+- GitBook Theme
