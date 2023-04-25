@@ -16,7 +16,7 @@ I am training to become a insightful developer and a skillful and quick-witted e
 
 #### *Projects* 
   [1] ExceptNotifier 
-  - The Python package ExceptNotifier enhances the try-except statement, allowing you to receive detailed error messages via email or messenger apps. [[Github]](https://github.com/dsdanielpark/ExceptNotifier)
+  - The Python package ExceptNotifier enhances the try-except statement, allowing you to receive detailed error messages via email or messenger apps. [[Github]](https://github.com/dsdanielpark/ExceptNotifier) [[Document]](https://exceptnotifier.readthedocs.io/en/latest/)
   
   [2] GPT-BERT-Medical-QA-Chatbot 
   - Medical domain-focused GPT-2 fine-tuning, optimization, and lightweighting research repository (compared to GPT-4). [[Github]](https://github.com/DSDanielPark/medical-qa-bert-chatgpt) 
