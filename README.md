@@ -3,7 +3,7 @@
 
 ## Topic
 - :star2: Model lightweighting: 
-- :star2: Optimization
-- :star2: Natural language processing: 
-- :star2: Computer Vision: 
-- :star2: Time series data analysis and prediction: 
+- :rabbit2: Optimization
+- :sunrise: Natural language processing: 
+- :baby_chick: Computer Vision: 
+- :blossom: Time series data analysis and prediction: 
