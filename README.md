@@ -8,10 +8,10 @@
 - :baby_chick: Computer Vision: 
 - :blossom: Time series data analysis and prediction: 
 
-<br><Br>
+<br>
 
-Jekyll with the following:
-- Ruby version 2.5.0 or higher
-- RubyGems
-- GCC and Make
-- GitBook Theme
+[Jekyll](https://jekyllrb.com) with the following:
+- [Ruby](https://www.ruby-lang.org/en/) version 2.5.0 or higher
+- [RubyGems](https://rubygems.org/)
+- [GNU GCC](https://gcc.gnu.org/git.html) and [GNU Make](https://www.gnu.org/software/make/)
+- [GitBook Theme](https://github.com/sighingnow/jekyll-gitbook)
