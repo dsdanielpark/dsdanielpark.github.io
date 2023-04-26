@@ -11,6 +11,7 @@ layout: post
 ## Main Paper
 
 ### High-Resolution Image Synthesis with Latent Diffusion Models
+ - **url:** <https://arxiv.org/abs/2303.08774>
  - **abstract:** By decomposing the image formation process into a sequential
     application of denoising autoencoders, diffusion models (DMs)
     achieve state-of-the-art synthesis results on image data and beyond.
