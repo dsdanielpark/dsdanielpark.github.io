@@ -2,3 +2,4 @@ _site/
 _draft/
 .jekyll-cache/
 notebooks/
+.jekyll-metadata
