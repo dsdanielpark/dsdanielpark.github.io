@@ -3,13 +3,12 @@ title:            MinWoo Park
 longtitle:        IT Technical Blog 
 author:           Daniel Park
 email:            parkminwoo1991@gmail.com
-description: 
-  I am a passionate developer who enjoys learning and implementing innovative ideas while documenting and sharing my knowledge with others.
+description:      I am a passionate developer who enjoys learning and implementing innovative ideas while documenting and sharing my knowledge with others.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://dsdanielpark.github.io'
+url:              'https://dsdanielpark.github.io/'
 baseurl:          ''
 rss:              RSS
 
