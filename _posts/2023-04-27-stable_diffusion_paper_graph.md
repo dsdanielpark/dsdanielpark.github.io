@@ -2,10 +2,13 @@
 Paper Title: High-Resolution Image Synthesis with Latent Diffusion Models
 author: Daniel Park
 date: 2023-04-27
-category: paper
+category: stablediffusion
 layout: post
 ---
 
+
+Copyright (c) 2023 MinWoo Park, South Korea
+All Copyright (c) Reserved.
 
 ## Main Paper
 

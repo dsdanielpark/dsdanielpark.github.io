@@ -2,9 +2,12 @@
 Paper Title: A Survey of Large Language Models
 author: Daniel Park
 date: 2023-04-27
-category: paper
+category: nlp
 layout: post
 ---
+
+Copyright (c) 2023 MinWoo Park, South Korea
+All Copyright (c) Reserved.
 
 ### Main Paper
 

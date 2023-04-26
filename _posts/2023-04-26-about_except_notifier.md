@@ -2,9 +2,17 @@
 title: About ExceptNotifier 
 author: Daniel Park
 date: 2023-04-26
-category: Jekyll
+category: package
 layout: post
 ---
+
+
+Copyright (c) 2023 MinWoo Park, South Korea
+All Copyright (c) Reserved.
+
+- Official Github: https://github.com/dsdanielpark/ExceptNotifier
+- Official Document: https://exceptnotifier.readthedocs.io/en/latest/
+
 
 1. Applying ExceptNotifier in Python
 
