@@ -24,7 +24,7 @@ layout: post
 
 <br><br>
 
-## ExceptNotifier 구현에 대하여
+### ExceptNotifier 구현에 대하여
 
 - ExceptNotifier Python
 

@@ -1,15 +1,16 @@
 ---
-title: High-Resolution Image Synthesis with Latent Diffusion Models
+Paper Title: High-Resolution Image Synthesis with Latent Diffusion Models
 author: Daniel Park
-date: 2021-08-10
-category: Jekyll
+date: 2023-04-27
+category: StableDiffusion
 layout: post
 ---
 
----
-nocite: "[@*]"
-references:
-- abstract: By decomposing the image formation process into a sequential
+
+## Main Paper
+
+### High-Resolution Image Synthesis with Latent Diffusion Models
+ - **abstract:** By decomposing the image formation process into a sequential
     application of denoising autoencoders, diffusion models (DMs)
     achieve state-of-the-art synthesis results on image data and beyond.
     Additionally, their formulation allows for a guiding mechanism to
@@ -33,57 +34,43 @@ references:
     including unconditional image generation, text-to-image synthesis,
     and super-resolution, while significantly reducing computational
     requirements compared to pixel-based DMs.
-  author:
-  - family: Rombach
-    given: Robin
-  - family: Blattmann
-    given: A.
-  - family: Lorenz
-    given: Dominik
-  - family: Esser
-    given: Patrick
-  - family: Ommer
-    given: B.
-  container-title: 2022 IEEE/CVF Conference on Computer Vision and
+ - **container-Paper Title:** 2022 IEEE/CVF Conference on Computer Vision and
     Pattern Recognition (CVPR)
-  doi: 10.1109/CVPR52688.2022.01042
-  id: c10075b3746a9f3dd5811970e93c8ca3ad39b39d
-  issued: 2021
-  page: 10674-10685
-  title: High-resolution image synthesis with latent diffusion models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/c10075b3746a9f3dd5811970e93c8ca3ad39b39d"
-  volume: "null"
-- abstract: "We show that diffusion models can achieve image sample
+ - **doi:** 10.1109/CVPR52688.2022.01042
+ - **id:** c10075b3746a9f3dd5811970e93c8ca3ad39b39d
+
+
+## Related Papers
+
+### Paper Title: High-resolution image synthesis with latent diffusion models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/c10075b3746a9f3dd5811970e93c8ca3ad39b39d>
+ - **volume:** null
+ - **abstract:** We show that diffusion models can achieve image sample
     quality superior to the current state-of-the-art generative models.
     We achieve this on unconditional image synthesis by finding a better
     architecture through a series of ablations. For conditional image
     synthesis, we further improve sample quality with classifier
     guidance: a simple, compute-efficient method for trading off
     diversity for fidelity using gradients from a classifier. We achieve
-    an FID of 2.97 on ImageNet 128$\\times$`<!-- -->`{=html}128, 4.59 on
-    ImageNet 256$\\times$`<!-- -->`{=html}256, and 7.72 on ImageNet
-    512$\\times$`<!-- -->`{=html}512, and we match BigGAN-deep even with
+    an FID of 2.97 on ImageNet 128$\\times$ 128, 4.59 on
+    ImageNet 256$\\times$ 256, and 7.72 on ImageNet
+    512$\\times$ 512, and we match BigGAN-deep even with
     as few as 25 forward passes per sample, all while maintaining better
     coverage of the distribution. Finally, we find that classifier
     guidance combines well with upsampling diffusion models, further
-    improving FID to 3.94 on ImageNet 256$\\times$`<!-- -->`{=html}256
-    and 3.85 on ImageNet 512$\\times$`<!-- -->`{=html}512. We release our
-    code at https://github.com/openai/guided-diffusion"
-  author:
-  - family: Dhariwal
-    given: Prafulla
-  - family: Nichol
-    given: Alex
-  container-title: ArXiv
-  id: 64ea8f180d0682e6c18d1eb688afdb2027c02794
-  issued: 2021
-  page: "null"
-  title: Diffusion models beat GANs on image synthesis
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/64ea8f180d0682e6c18d1eb688afdb2027c02794"
-  volume: abs/2105.05233
-- abstract: "Recently, GAN inversion methods combined with Contrastive
+    improving FID to 3.94 on ImageNet 256$\\times$ 256
+    and 3.85 on ImageNet 512$\\times$ 512. We release our
+    code at <https://github.com/openai/guided-diffusion>
+ - **container-Paper Title:** ArXiv
+ - **id:** 64ea8f180d0682e6c18d1eb688afdb2027c02794
+
+
+### Paper Title: Diffusion models beat GANs on image synthesis
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/64ea8f180d0682e6c18d1eb688afdb2027c02794>
+ - **volume:** abs/2105.05233
+ - **abstract:** Recently, GAN inversion methods combined with Contrastive
     Language-Image Pretraining (CLIP) enables zeroshot image
     manipulation guided by text prompts. However, their applications to
     diverse real images are still difficult due to the limited GAN
@@ -103,27 +90,19 @@ references:
     manipulation. Extensive experiments and human evaluation confirmed
     robust and superior manipulation performance of our methods compared
     to the existing baselines. Code is available at
-    https://github.com/gwang-kim/DiffusionCLIP.git"
-  author:
-  - family: Kim
-    given: Gwanghyun
-  - family: Kwon
-    given: Taesung
-  - family: Ye
-    given: Jong-Chul
-  container-title: 2022 IEEE/CVF Conference on Computer Vision and
+    <https://github.com/gwang-kim/DiffusionCLIP.git>
+ - **container-Paper Title:** 2022 IEEE/CVF Conference on Computer Vision and
     Pattern Recognition (CVPR)
-  doi: 10.1109/CVPR52688.2022.00246
-  id: 8f8dedb511c0324d1cb7f9750560109ca9290b5f
-  issued: 2021
-  page: 2416-2425
-  title: "DiffusionCLIP: Text-guided diffusion models for robust image
-    manipulation"
-  title-short: DiffusionCLIP
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/8f8dedb511c0324d1cb7f9750560109ca9290b5f"
-  volume: "null"
-- abstract: "We present the vector quantized diffusion (VQ-Diffusion)
+ - **doi:** 10.1109/CVPR52688.2022.00246
+ - **id:** 8f8dedb511c0324d1cb7f9750560109ca9290b5f
+
+
+### Paper Title: DiffusionCLIP: Text-guided diffusion models for robust image manipulation
+ - title-short: DiffusionCLIP
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/8f8dedb511c0324d1cb7f9750560109ca9290b5f>
+ - **volume:** null
+ - **abstract:** We present the vector quantized diffusion (VQ-Diffusion)
     model for text-to-image generation. This method is based on a vector
     quantized variational autoencoder (VQ-VAE) whose latent space is
     modeled by a conditional variant of the recently developed Denoising
@@ -147,35 +126,18 @@ references:
     that the VQ-Diffusion model with the reparameterization is fifteen
     times faster than traditional AR methods while achieving a better
     image quality. The code and models are available at
-    https://github.com/cientgu/VQ-Diffusion."
-  author:
-  - family: Gu
-    given: Shuyang
-  - family: Chen
-    given: Dong
-  - family: Bao
-    given: Jianmin
-  - family: Wen
-    given: Fang
-  - family: Zhang
-    given: Bo
-  - family: Chen
-    given: Dongdong
-  - family: Yuan
-    given: Lu
-  - family: Guo
-    given: B.
-  container-title: 2022 IEEE/CVF Conference on Computer Vision and
+    <https://github.com/cientgu/VQ-Diffusion.>
+ - **container-Paper Title:** 2022 IEEE/CVF Conference on Computer Vision and
     Pattern Recognition (CVPR)
-  doi: 10.1109/CVPR52688.2022.01043
-  id: 194ea47df737ee5cc4240273b34a6c673a081515
-  issued: 2021
-  page: 10686-10696
-  title: Vector quantized diffusion model for text-to-image synthesis
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/194ea47df737ee5cc4240273b34a6c673a081515"
-  volume: "null"
-- abstract: Employing a forward Markov diﬀusion chain to gradually map
+ - **doi:** 10.1109/CVPR52688.2022.01043
+ - **id:** 194ea47df737ee5cc4240273b34a6c673a081515
+
+
+### Paper Title: Vector quantized diffusion model for text-to-image synthesis
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/194ea47df737ee5cc4240273b34a6c673a081515>
+ - **volume:** null
+ - **abstract:** Employing a forward Markov diﬀusion chain to gradually map
     the data to a noise distribution, diﬀusion probabilistic models
     learn how to generate the data by inferring a reverse Markov
     diﬀusion chain to invert the forward diﬀusion process. To achieve
@@ -191,24 +153,15 @@ references:
     our truncated diﬀusion probabilistic models provide consistent
     improvements over the non-truncated ones in terms of the generation
     performance and the number of required inverse diﬀusion steps.
-  author:
-  - family: Zheng
-    given: Huangjie
-  - family: He
-    given: Pengcheng
-  - family: Chen
-    given: Weizhu
-  - family: Zhou
-    given: Mingyuan
-  container-title: ArXiv
-  id: a404b466126c2a83c460eded92c95297cc84af64
-  issued: 2022
-  page: "null"
-  title: Truncated diffusion probabilistic models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/f81d707d83d5857ab82831fcdd278fc9355b8dce"
-  volume: abs/2202.09671
-- abstract: Recently most successful image synthesis models are multi
+ - **container-Paper Title:** ArXiv
+ - **id:** a404b466126c2a83c460eded92c95297cc84af64
+
+
+### Paper Title: Truncated diffusion probabilistic models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/f81d707d83d5857ab82831fcdd278fc9355b8dce>
+ - **volume:** abs/2202.09671
+ - **abstract:** Recently most successful image synthesis models are multi
     stage process to combine the advantages of different methods, which
     always includes a VAE-like model for faithfully reconstructing
     embedding to image and a prior model to generate image embedding. At
@@ -222,29 +175,17 @@ references:
     and generates more photorealistic images specifically. In addition,
     we apply the DiVAE with an Auto-regressive generator on conditional
     synthesis tasks to perform more human-feeling and detailed samples.
-  author:
-  - family: Shi
-    given: Jie
-  - family: Wu
-    given: Chenfei
-  - family: Liang
-    given: Jian
-  - family: Liu
-    given: Xiang
-  - family: Duan
-    given: Nan
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2206.00386
-  id: 32b3553d7dc8a263c63d32eeec2916d1647ab178
-  issued: 2022
-  page: "null"
-  title: "DiVAE: Photorealistic images synthesis with denoising
-    diffusion decoder"
-  title-short: DiVAE
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/32b3553d7dc8a263c63d32eeec2916d1647ab178"
-  volume: abs/2206.00386
-- abstract: "We present Imagen Video, a text-conditional video
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2206.00386
+ - **id:** 32b3553d7dc8a263c63d32eeec2916d1647ab178
+
+
+### Paper Title: DiVAE: Photorealistic images synthesis with denoising diffusion decoder
+ - title-short: DiVAE
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/32b3553d7dc8a263c63d32eeec2916d1647ab178>
+ - **volume:** abs/2206.00386
+ - **abstract:** We present Imagen Video, a text-conditional video
     generation system based on a cascade of video diffusion models.
     Given a text prompt, Imagen Video generates high definition videos
     using a base video generation model and a sequence of interleaved
@@ -261,48 +202,24 @@ references:
     but also having a high degree of controllability and world
     knowledge, including the ability to generate diverse videos and text
     animations in various artistic styles and with 3D object
-    understanding. See https://imagen.research.google/video/ for
-    samples."
-  author:
-  - family: Ho
-    given: Jonathan
-  - family: Chan
-    given: William
-  - family: Saharia
-    given: Chitwan
-  - family: Whang
-    given: Jay
-  - family: Gao
-    given: Ruiqi
-  - family: Gritsenko
-    given: A.
-  - family: Kingma
-    given: Diederik P.
-  - family: Poole
-    given: Ben
-  - family: Norouzi
-    given: Mohammad
-  - family: Fleet
-    given: David J.
-  - family: Salimans
-    given: Tim
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2210.02303
-  id: 498ac9b2e494601d20a3d0211c16acf2b7954a54
-  issued: 2022
-  page: "null"
-  title: "Imagen video: High definition video generation with diffusion
-    models"
-  title-short: Imagen video
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/498ac9b2e494601d20a3d0211c16acf2b7954a54"
-  volume: abs/2210.02303
-- abstract: "Large text-to-image models achieved a remarkable leap in
+    understanding. See <https://imagen.research.google/video/ for>
+    samples.
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2210.02303
+ - **id:** 498ac9b2e494601d20a3d0211c16acf2b7954a54
+
+
+### Paper Title: Imagen video: High definition video generation with diffusion models
+ - title-short: Imagen video
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/498ac9b2e494601d20a3d0211c16acf2b7954a54>
+ - **volume:** abs/2210.02303
+ - **abstract:** Large text-to-image models achieved a remarkable leap in
     the evolution of AI, enabling high-quality and diverse synthesis of
     images from a given text prompt. However, these models lack the
     ability to mimic the appearance of subjects in a given reference set
     and synthesize novel renditions of them in different contexts. In
-    this work, we present a new approach for\\\"personalization\\\"of
+    this work, we present a new approach for\\\personalization\\\of
     text-to-image diffusion models. Given as input just a few images of
     a subject, we fine-tune a pretrained text-to-image model such that
     it learns to bind a unique identifier with that specific subject.
@@ -318,32 +235,18 @@ references:
     and artistic rendering, all while preserving the subject's key
     features. We also provide a new dataset and evaluation protocol for
     this new task of subject-driven generation. Project page:
-    https://dreambooth.github.io/"
-  author:
-  - family: Ruiz
-    given: Nataniel
-  - family: Li
-    given: Yuanzhen
-  - family: Jampani
-    given: Varun
-  - family: Pritch
-    given: Y.
-  - family: Rubinstein
-    given: Michael
-  - family: Aberman
-    given: Kfir
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2208.12242
-  id: d7b72963fccd86bb8c85f289d7f00c12fdc6cbfd
-  issued: 2022
-  page: "null"
-  title: "DreamBooth: Fine tuning text-to-image diffusion models for
-    subject-driven generation"
-  title-short: DreamBooth
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/5b19bf6c3f4b25cac96362c98b930cf4b37f6744"
-  volume: abs/2208.12242
-- abstract: A central problem in machine learning involves modeling
+    <https://dreambooth.github.io/>
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2208.12242
+ - **id:** d7b72963fccd86bb8c85f289d7f00c12fdc6cbfd
+
+
+### Paper Title: DreamBooth: Fine tuning text-to-image diffusion models for subject-driven generation
+ - title-short: DreamBooth
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/5b19bf6c3f4b25cac96362c98b930cf4b37f6744>
+ - **volume:** abs/2208.12242
+ - **abstract:** A central problem in machine learning involves modeling
     complex data-sets using highly flexible families of probability
     distributions in which learning, sampling, inference, and evaluation
     are still analytically or computationally tractable. Here, we
@@ -359,50 +262,29 @@ references:
     conditional and posterior probabilities under the learned model. We
     additionally release an open source reference implementation of the
     algorithm.
-  author:
-  - family: Sohl-Dickstein
-    given: Jascha Narain
-  - family: Weiss
-    given: Eric A.
-  - family: Maheswaranathan
-    given: Niru
-  - family: Ganguli
-    given: S.
-  container-title: ArXiv
-  id: 2dcef55a07f8607a819c21fe84131ea269cc2e3c
-  issued: 2015
-  page: "null"
-  title: Deep unsupervised learning using nonequilibrium thermodynamics
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/2dcef55a07f8607a819c21fe84131ea269cc2e3c"
-  volume: abs/1503.03585
-- abstract: "S2 TL;DR: A novel discrete diffusion probabilistic model
+ - **container-Paper Title:** ArXiv
+ - **id:** 2dcef55a07f8607a819c21fe84131ea269cc2e3c
+
+
+### Paper Title: Deep unsupervised learning using nonequilibrium thermodynamics
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/2dcef55a07f8607a819c21fe84131ea269cc2e3c>
+ - **volume:** abs/1503.03585
+ - **abstract:** S2 TL;DR: A novel discrete diffusion probabilistic model
     prior is proposed which enables parallel prediction of
     Vector-Quantized tokens by using an unconstrained Transformer
     architecture as the backbone and facilitates unconditional
     generation of globally consistent high-resolution and diverse
-    imagery at a fraction of the computational expense."
-  author:
-  - family: Bond-Taylor
-    given: Sam
-  - family: Hessey
-    given: Peter
-  - family: Sasaki
-    given: Hiroshi
-  - family: Breckon
-    given: T.
-  - family: Willcocks
-    given: Chris G.
-  doi: 10.1007/978-3-031-20050-2_11
-  id: 80035bfa3f822364fbc62de6df2d5df13a0c47ff
-  issued: 2021
-  title: "Unleashing transformers: Parallel token prediction with
-    discrete absorbing diffusion for fast high-resolution image
-    generation from vector-quantized codes"
-  title-short: Unleashing transformers
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/80035bfa3f822364fbc62de6df2d5df13a0c47ff"
-- abstract: "This paper develops a unified framework for image-to-image
+    imagery at a fraction of the computational expense.
+ - **doi:** 10.1007/978-3-031-20050-2_11
+ - **id:** 80035bfa3f822364fbc62de6df2d5df13a0c47ff
+
+
+### Paper Title: Unleashing transformers: Parallel token prediction with discrete absorbing diffusion for fast high-resolution image generation from vector-quantized codes
+ - title-short: Unleashing transformers
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/80035bfa3f822364fbc62de6df2d5df13a0c47ff>
+ - **abstract:** This paper develops a unified framework for image-to-image
     translation based on conditional diffusion models and evaluates this
     framework on four challenging image-to-image translation tasks,
     namely colorization, inpainting, uncropping, and JPEG restoration.
@@ -421,36 +303,19 @@ references:
     role in advancing image-to-image translation research. Finally, we
     show that a generalist, multi-task diffusion model performs as well
     or better than task-specific specialist counterparts. Check out
-    https://diffusion-palette.github.io/ for an overview of the results
-    and code."
-  author:
-  - family: Saharia
-    given: Chitwan
-  - family: Chan
-    given: William
-  - family: Chang
-    given: Huiwen
-  - family: Lee
-    given: Chris A.
-  - family: Ho
-    given: Jonathan
-  - family: Salimans
-    given: Tim
-  - family: Fleet
-    given: David J.
-  - family: Norouzi
-    given: Mohammad
-  container-title: ACM SIGGRAPH 2022 Conference Proceedings
-  doi: 10.1145/3528233.3530757
-  id: 37c9c4e7648f639c0b36f150fc6c6c90b3682f4a
-  issued: 2021
-  page: "null"
-  title: "Palette: Image-to-image diffusion models"
-  title-short: Palette
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/37c9c4e7648f639c0b36f150fc6c6c90b3682f4a"
-  volume: "null"
-- abstract: "We present Imagen, a text-to-image diffusion model with an
+    <https://diffusion-palette.github.io/> for an overview of the results
+    and code.
+ - **container-Paper Title:** ACM SIGGRAPH 2022 Conference Proceedings
+ - **doi:** 10.1145/3528233.3530757
+ - **id:** 37c9c4e7648f639c0b36f150fc6c6c90b3682f4a
+
+
+### Paper Title: Palette: Image-to-image diffusion models
+ - title-short: Palette
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/37c9c4e7648f639c0b36f150fc6c6c90b3682f4a>
+ - **volume:** null
+ - **abstract:** We present Imagen, a text-to-image diffusion model with an
     unprecedented degree of photorealism and a deep level of language
     understanding. Imagen builds on the power of large transformer
     language models in understanding text and hinges on the strength of
@@ -470,47 +335,17 @@ references:
     Models, and DALL-E 2, and find that human raters prefer Imagen over
     other models in side-by-side comparisons, both in terms of sample
     quality and image-text alignment. See
-    https://imagen.research.google/ for an overview of the results."
-  author:
-  - family: Saharia
-    given: Chitwan
-  - family: Chan
-    given: William
-  - family: Saxena
-    given: Saurabh
-  - family: Li
-    given: Lala
-  - family: Whang
-    given: Jay
-  - family: Denton
-    given: Emily L.
-  - family: Ghasemipour
-    given: Seyed Kamyar Seyed
-  - family: Ayan
-    given: Burcu Karagol
-  - family: Mahdavi
-    given: S. S.
-  - family: Lopes
-    given: Raphael Gontijo
-  - family: Salimans
-    given: Tim
-  - family: Ho
-    given: Jonathan
-  - family: Fleet
-    given: David J.
-  - family: Norouzi
-    given: Mohammad
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2205.11487
-  id: 9695824d7a01fad57ba9c01d7d76a519d78d65e7
-  issued: 2022
-  page: "null"
-  title: Photorealistic text-to-image diffusion models with deep
-    language understanding
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/9695824d7a01fad57ba9c01d7d76a519d78d65e7"
-  volume: abs/2205.11487
-- abstract: We present high quality image synthesis results using
+    <https://imagen.research.google/ for an overview of the results.>
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2205.11487
+ - **id:** 9695824d7a01fad57ba9c01d7d76a519d78d65e7
+
+
+### Paper Title: Photorealistic text-to-image diffusion models with deep language understanding
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/9695824d7a01fad57ba9c01d7d76a519d78d65e7>
+ - **volume:** abs/2205.11487
+ - **abstract:** We present high quality image synthesis results using
     diffusion probabilistic models, a class of latent variable models
     inspired by considerations from nonequilibrium thermodynamics. Our
     best results are obtained by training on a weighted variational
@@ -522,22 +357,15 @@ references:
     obtain an Inception score of 9.46 and a state-of-the-art FID score
     of 3.17. On 256x256 LSUN, we obtain sample quality similar to
     ProgressiveGAN. Our implementation is available at this https URL
-  author:
-  - family: Ho
-    given: Jonathan
-  - family: Jain
-    given: Ajay
-  - family: Abbeel
-    given: P.
-  container-title: ArXiv
-  id: 289db3be7bf77e06e75541ba93269de3d604ac72
-  issued: 2020
-  page: "null"
-  title: Denoising diffusion probabilistic models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/289db3be7bf77e06e75541ba93269de3d604ac72"
-  volume: abs/2006.11239
-- abstract: "Diffusion probabilistic models (DPMs) have achieved
+ - **container-Paper Title:** ArXiv
+ - **id:** 289db3be7bf77e06e75541ba93269de3d604ac72
+
+
+### Paper Title: Denoising diffusion probabilistic models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/289db3be7bf77e06e75541ba93269de3d604ac72>
+ - **volume:** abs/2006.11239
+ - **abstract:** Diffusion probabilistic models (DPMs) have achieved
     remarkable quality in image generation that rivals GANs'. But unlike
     GANs, DPMs use a set of latent variables that lack semantic meaning
     and cannot serve as a useful representation for other tasks. This
@@ -554,29 +382,19 @@ references:
     manipulation on real images. We also show that this two-level
     encoding improves denoising efficiency and naturally facilitates
     various downstream tasks including few-shot conditional sampling.
-    Please visit our page: https://Diff-AE.github.io/"
-  author:
-  - family: Preechakul
-    given: Konpat
-  - family: Chatthee
-    given: Nattanat
-  - family: Wizadwongsa
-    given: Suttisak
-  - family: Suwajanakorn
-    given: Supasorn
-  container-title: 2022 IEEE/CVF Conference on Computer Vision and
+    Please visit our page: <https://Diff-AE.github.io/>
+ - **container-Paper Title:** 2022 IEEE/CVF Conference on Computer Vision and
     Pattern Recognition (CVPR)
-  doi: 10.1109/CVPR52688.2022.01036
-  id: b582edb16f5425642767cb6c26839111f867f4dc
-  issued: 2021
-  page: 10609-10619
-  title: "Diffusion autoencoders: Toward a meaningful and decodable
-    representation"
-  title-short: Diffusion autoencoders
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/b582edb16f5425642767cb6c26839111f867f4dc"
-  volume: "null"
-- abstract: We show that cascaded diffusion models are capable of
+ - **doi:** 10.1109/CVPR52688.2022.01036
+ - **id:** b582edb16f5425642767cb6c26839111f867f4dc
+
+
+### Paper Title: Diffusion autoencoders: Toward a meaningful and decodable representation
+ - title-short: Diffusion autoencoders
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/b582edb16f5425642767cb6c26839111f867f4dc>
+ - **volume:** null
+ - **abstract:** We show that cascaded diffusion models are capable of
     generating high fidelity images on the class-conditional ImageNet
     generation benchmark, without any assistance from auxiliary image
     classifiers to boost sample quality. A cascaded diffusion model
@@ -593,28 +411,15 @@ references:
     cascading pipelines achieving FID scores of 1.48 at 64x64, 3.52 at
     128x128 and 4.88 at 256x256 resolutions, outperforming BigGAN-deep,
     and classification accuracy scores of 63.02
-  author:
-  - family: Ho
-    given: Jonathan
-  - family: Saharia
-    given: Chitwan
-  - family: Chan
-    given: William
-  - family: Fleet
-    given: David J.
-  - family: Norouzi
-    given: Mohammad
-  - family: Salimans
-    given: Tim
-  container-title: J. Mach. Learn. Res.
-  id: 0f183bcfe65781c06b1a48a6f56e0f3c63e8e4a4
-  issued: 2021
-  page: "47:1-47:33"
-  title: Cascaded diffusion models for high fidelity image generation
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/0f183bcfe65781c06b1a48a6f56e0f3c63e8e4a4"
-  volume: 23
-- abstract: "Generating temporally coherent high fidelity video is an
+ - **container-Paper Title:** J. Mach. Learn. Res.
+ - **id:** 0f183bcfe65781c06b1a48a6f56e0f3c63e8e4a4
+
+
+### Paper Title: Cascaded diffusion models for high fidelity image generation
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/0f183bcfe65781c06b1a48a6f56e0f3c63e8e4a4>
+ - **volume:** 23
+ - **abstract:** Generating temporally coherent high fidelity video is an
     important milestone in generative modeling research. We make
     progress towards this milestone by proposing a diffusion model for
     video generation that shows very promising initial results. Our
@@ -628,30 +433,17 @@ references:
     text-conditioned video generation task, as well as state-of-the-art
     results on established benchmarks for video prediction and
     unconditional video generation. Supplementary material is available
-    at https://video-diffusion.github.io/"
-  author:
-  - family: Ho
-    given: Jonathan
-  - family: Salimans
-    given: Tim
-  - family: Gritsenko
-    given: Alexey
-  - family: Chan
-    given: William
-  - family: Norouzi
-    given: Mohammad
-  - family: Fleet
-    given: David J.
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2204.03458
-  id: 3b2a675bb617ae1a920e8e29d535cdf27826e999
-  issued: 2022
-  page: "null"
-  title: Video diffusion models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/3b2a675bb617ae1a920e8e29d535cdf27826e999"
-  volume: abs/2204.03458
-- abstract: Denoising diffusion probabilistic models (DDPMs) (Ho et al.
+    at <https://video-diffusion.github.io/>
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2204.03458
+ - **id:** 3b2a675bb617ae1a920e8e29d535cdf27826e999
+
+
+### Paper Title: Video diffusion models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/3b2a675bb617ae1a920e8e29d535cdf27826e999>
+ - **volume:** abs/2204.03458
+ - **abstract:** Denoising diffusion probabilistic models (DDPMs) (Ho et al.
     2020) have shown impressive results on image and waveform generation
     in continuous state spaces. Here, we introduce Discrete Denoising
     Diffusion Probabilistic Models (D3PMs), diffusion-like generative
@@ -671,27 +463,15 @@ references:
     vocabularies on LM1B. On the image dataset CIFAR-10, our models
     approach the sample quality and exceed the log-likelihood of the
     continuous-space DDPM model.
-  author:
-  - family: Austin
-    given: Jacob
-  - family: Johnson
-    given: Daniel D.
-  - family: Ho
-    given: Jonathan
-  - family: Tarlow
-    given: Daniel
-  - dropping-particle: van den
-    family: Berg
-    given: Rianne
-  container-title: ArXiv
-  id: 91b32fc0a23f0af53229fceaae9cce43a0406d2e
-  issued: 2021
-  page: "null"
-  title: Structured denoising diffusion models in discrete state-spaces
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/91b32fc0a23f0af53229fceaae9cce43a0406d2e"
-  volume: abs/2107.03006
-- abstract: "Diffusion-based generative models have demonstrated a
+ - **container-Paper Title:** ArXiv
+ - **id:** 91b32fc0a23f0af53229fceaae9cce43a0406d2e
+
+
+### Paper Title: Structured denoising diffusion models in discrete state-spaces
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/91b32fc0a23f0af53229fceaae9cce43a0406d2e>
+ - **volume:** abs/2107.03006
+ - **abstract:** Diffusion-based generative models have demonstrated a
     capacity for perceptually impressive synthesis, but can they also be
     great likelihood-based models? We answer this in the affirmative,
     and introduce a family of diffusion-based generative models that
@@ -714,26 +494,16 @@ references:
     years, with often significantly faster optimization. In addition, we
     show how to use the model as part of a bits-back compression scheme,
     and demonstrate lossless compression rates close to the theoretical
-    optimum. Code is available at https://github.com/google-research/vdm
-    ."
-  author:
-  - family: Kingma
-    given: Diederik P.
-  - family: Salimans
-    given: Tim
-  - family: Poole
-    given: Ben
-  - family: Ho
-    given: Jonathan
-  container-title: ArXiv
-  id: e2db22251792e9dd809d5ffb0feaab50a687cdb0
-  issued: 2021
-  page: "null"
-  title: Variational diffusion models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/e2db22251792e9dd809d5ffb0feaab50a687cdb0"
-  volume: abs/2107.00630
-- abstract: Score-based generative models can produce high quality image
+    optimum. Code is available at <https://github.com/google-research/vdm.>
+ - **container-Paper Title:** ArXiv
+ - **id:** e2db22251792e9dd809d5ffb0feaab50a687cdb0
+
+
+### Paper Title: Variational diffusion models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/e2db22251792e9dd809d5ffb0feaab50a687cdb0>
+ - **volume:** abs/2107.00630
+ - **abstract:** Score-based generative models can produce high quality image
     samples comparable to GANs, without requiring adversarial
     optimization. However, existing training procedures are limited to
     images of low resolution (typically below 32x32), and can be
@@ -748,20 +518,15 @@ references:
     can generate high-fidelity samples that rival best-in-class GANs on
     various image datasets, including CelebA, FFHQ, and multiple LSUN
     categories.
-  author:
-  - family: Song
-    given: Yang
-  - family: Ermon
-    given: S.
-  container-title: ArXiv
-  id: 1156e277fa7ec195b043161d3c5c97715da17658
-  issued: 2020
-  page: "null"
-  title: Improved techniques for training score-based generative models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/1156e277fa7ec195b043161d3c5c97715da17658"
-  volume: abs/2006.09011
-- abstract: "Recent text-to-image generation methods provide a simple
+ - **container-Paper Title:** ArXiv
+ - **id:** 1156e277fa7ec195b043161d3c5c97715da17658
+
+
+### Paper Title: Improved techniques for training score-based generative models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/1156e277fa7ec195b043161d3c5c97715da17658>
+ - **volume:** abs/2006.09011
+ - **abstract:** Recent text-to-image generation methods provide a simple
     yet exciting conversion capability between text and image domains.
     While these methods have incrementally improved the generated image
     fidelity and text relevancy, several pivotal gaps remain unanswered,
@@ -779,32 +544,18 @@ references:
     capabilities: (i) Scene editing, (ii) text editing with anchor
     scenes, (iii) overcoming out-of-distribution text prompts, and (iv)
     story illustration generation, as demonstrated in the story we
-    wrote."
-  author:
-  - family: Gafni
-    given: Oran
-  - family: Polyak
-    given: A.
-  - family: Ashual
-    given: Oron
-  - family: Sheynin
-    given: Shelly
-  - family: Parikh
-    given: Devi
-  - family: Taigman
-    given: Yaniv
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2203.13131
-  id: 15e234a67f30d6761f1d7670d501095d1697b69c
-  issued: 2022
-  page: "null"
-  title: "Make-a-scene: Scene-based text-to-image generation with human
-    priors"
-  title-short: Make-a-scene
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/15e234a67f30d6761f1d7670d501095d1697b69c"
-  volume: abs/2203.13131
-- abstract: "Diffusion models have recently been shown to generate
+    wrote.
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2203.13131
+ - **id:** 15e234a67f30d6761f1d7670d501095d1697b69c
+
+
+### Paper Title: Make-a-scene: Scene-based text-to-image generation with human priors
+ - title-short: Make-a-scene
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/15e234a67f30d6761f1d7670d501095d1697b69c>
+ - **volume:** abs/2203.13131
+ - **abstract:** Diffusion models have recently been shown to generate
     high-quality synthetic images, especially when paired with a
     guidance technique to trade off diversity for fidelity. We explore
     diffusion models for the problem of text-conditional image synthesis
@@ -818,32 +569,15 @@ references:
     that our models can be fine-tuned to perform image inpainting,
     enabling powerful text-driven image editing. We train a smaller
     model on a filtered dataset and release the code and weights at
-    https://github.com/openai/glide-text2im."
-  author:
-  - family: Nichol
-    given: Alex
-  - family: Dhariwal
-    given: Prafulla
-  - family: Ramesh
-    given: A.
-  - family: Shyam
-    given: Pranav
-  - family: Mishkin
-    given: Pamela
-  - family: McGrew
-    given: Bob
-  - family: Sutskever
-    given: Ilya
-  - family: Chen
-    given: Mark
-  id: 7002ae048e4b8c9133a55428441e8066070995cb
-  issued: 2021
-  title: "GLIDE: Towards photorealistic image generation and editing
-    with text-guided diffusion models"
-  title-short: GLIDE
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/7002ae048e4b8c9133a55428441e8066070995cb"
-- abstract: "We present the Pathways Autoregressive Text-to-Image
+    <https://github.com/openai/glide-text2im.>
+ - **id:** 7002ae048e4b8c9133a55428441e8066070995cb
+
+
+### Paper Title: GLIDE: Towards photorealistic image generation and editing with text-guided diffusion models
+ - title-short: GLIDE
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/7002ae048e4b8c9133a55428441e8066070995cb>
+ - **abstract:** We present the Pathways Autoregressive Text-to-Image
     (Parti) model, which generates high-fidelity photorealistic images
     and supports content-rich synthesis involving complex compositions
     and world knowledge. Parti treats text-to-image generation as a
@@ -864,53 +598,17 @@ references:
     variety of categories and difficulty aspects. We also explore and
     highlight limitations of our models in order to define and exemplify
     key areas of focus for further improvements. See
-    https://parti.research.google/ for high-resolution images."
-  author:
-  - family: Yu
-    given: Jiahui
-  - family: Xu
-    given: Yuanzhong
-  - family: Koh
-    given: Jing Yu
-  - family: Luong
-    given: Thang
-  - family: Baid
-    given: Gunjan
-  - family: Wang
-    given: Zirui
-  - family: Vasudevan
-    given: Vijay
-  - family: Ku
-    given: Alexander
-  - family: Yang
-    given: Yinfei
-  - family: Ayan
-    given: Burcu Karagol
-  - family: Hutchinson
-    given: B.
-  - family: Han
-    given: Wei
-  - family: Parekh
-    given: Zarana
-  - family: Li
-    given: Xin
-  - family: Zhang
-    given: Han
-  - family: Baldridge
-    given: Jason
-  - family: Wu
-    given: Yonghui
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2206.10789
-  id: 1243e13254bb4ea1f71b4be8a3e4e54ffd02d2fe
-  issued: 2022
-  page: "null"
-  title: Scaling autoregressive models for content-rich text-to-image
-    generation
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/1243e13254bb4ea1f71b4be8a3e4e54ffd02d2fe"
-  volume: abs/2206.10789
-- abstract: Text-to-image generation has traditionally focused on
+    <https://parti.research.google/> for high-resolution images.
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2206.10789
+ - **id:** 1243e13254bb4ea1f71b4be8a3e4e54ffd02d2fe
+
+
+### Paper Title: Scaling autoregressive models for content-rich text-to-image generation
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/1243e13254bb4ea1f71b4be8a3e4e54ffd02d2fe>
+ - **volume:** abs/2206.10789
+ - **abstract:** Text-to-image generation has traditionally focused on
     finding better modeling assumptions for training on a fixed dataset.
     These assumptions might involve complex architectures, auxiliary
     losses, or side information such as object part labels or
@@ -919,32 +617,15 @@ references:
     models the text and image tokens as a single stream of data. With
     sufficient data and scale, our approach is competitive with previous
     domain-specific models when evaluated in a zero-shot fashion.
-  author:
-  - family: Ramesh
-    given: A.
-  - family: Pavlov
-    given: Mikhail
-  - family: Goh
-    given: Gabriel
-  - family: Gray
-    given: Scott
-  - family: Voss
-    given: Chelsea
-  - family: Radford
-    given: Alec
-  - family: Chen
-    given: Mark
-  - family: Sutskever
-    given: Ilya
-  container-title: ArXiv
-  id: 2cd605106b88c85d7d8b865b1ef0f8c8293debf1
-  issued: 2021
-  page: "null"
-  title: Zero-shot text-to-image generation
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/2cd605106b88c85d7d8b865b1ef0f8c8293debf1"
-  volume: abs/2102.12092
-- abstract: "Autoregressive models and their sequential factorization of
+ - **container-Paper Title:** ArXiv
+ - **id:** 2cd605106b88c85d7d8b865b1ef0f8c8293debf1
+
+
+### Paper Title: Zero-shot text-to-image generation
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/2cd605106b88c85d7d8b865b1ef0f8c8293debf1>
+ - **volume:** abs/2102.12092
+ - **abstract:** Autoregressive models and their sequential factorization of
     the data likelihood have recently demonstrated great potential for
     image representation and synthesis. Nevertheless, they incorporate
     image context in a linear 1D order by attending only to previously
@@ -968,27 +649,17 @@ references:
     perform local image editing. Thus, in contrast to pure
     autoregressive models, it can solve free-form image inpainting and,
     in the case of conditional models, local, text-guided image
-    modification without requiring mask-specific training."
-  author:
-  - family: Esser
-    given: Patrick
-  - family: Rombach
-    given: Robin
-  - family: Blattmann
-    given: A.
-  - family: Ommer
-    given: B.
-  container-title: ArXiv
-  id: 426c9d639c11514df7ba6e96d2343695561ba0eb
-  issued: 2021
-  page: 3518-3532
-  title: "ImageBART: Bidirectional context with multinomial diffusion
-    for autoregressive image synthesis"
-  title-short: ImageBART
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/426c9d639c11514df7ba6e96d2343695561ba0eb"
-  volume: abs/2108.08827
-- abstract: Denoising diffusion probabilistic models (DDPMs) have
+    modification without requiring mask-specific training.
+ - **container-Paper Title:** ArXiv
+ - **id:** 426c9d639c11514df7ba6e96d2343695561ba0eb
+
+
+### Paper Title: ImageBART: Bidirectional context with multinomial diffusion for autoregressive image synthesis
+ - title-short: ImageBART
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/426c9d639c11514df7ba6e96d2343695561ba0eb>
+ - **volume:** abs/2108.08827
+ - **abstract:** Denoising diffusion probabilistic models (DDPMs) have
     achieved high quality image generation without adversarial training,
     yet they require simulating a Markov chain for many steps to produce
     a sample. To accelerate sampling, we present denoising diffusion
@@ -1003,22 +674,15 @@ references:
     compared to DDPMs, allow us to trade off computation for sample
     quality, and can perform semantically meaningful image interpolation
     directly in the latent space.
-  author:
-  - family: Song
-    given: Jiaming
-  - family: Meng
-    given: Chenlin
-  - family: Ermon
-    given: Stefano
-  container-title: ArXiv
-  id: 014576b866078524286802b1d0e18628520aa886
-  issued: 2020
-  page: "null"
-  title: Denoising diffusion implicit models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/014576b866078524286802b1d0e18628520aa886"
-  volume: abs/2010.02502
-- abstract: "A wide variety of deep generative models has been developed
+ - **container-Paper Title:** ArXiv
+ - **id:** 014576b866078524286802b1d0e18628520aa886
+
+
+### Paper Title: Denoising diffusion implicit models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/014576b866078524286802b1d0e18628520aa886>
+ - **volume:** abs/2010.02502
+ - **abstract:** A wide variety of deep generative models has been developed
     in the past decade. Yet, these models often struggle with
     simultaneously addressing three key requirements including: high
     sample quality, mode coverage, and fast sampling. We call the
@@ -1043,24 +707,16 @@ references:
     our knowledge, denoising diffusion GAN is the first model that
     reduces sampling cost in diffusion models to an extent that allows
     them to be applied to real-world applications inexpensively. Project
-    page and code: https://nvlabs.github.io/denoising-diffusion-gan."
-  author:
-  - family: Xiao
-    given: Zhisheng
-  - family: Kreis
-    given: Karsten
-  - family: Vahdat
-    given: Arash
-  container-title: ArXiv
-  id: 0d4154cbd76c4753ba3cb7a5b89ab29bab53384f
-  issued: 2021
-  page: "null"
-  title: Tackling the generative learning trilemma with denoising
-    diffusion GANs
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/0d4154cbd76c4753ba3cb7a5b89ab29bab53384f"
-  volume: abs/2112.07804
-- abstract: "Classifier guidance is a recently introduced method to
+    page and code: <https://nvlabs.github.io/denoising-diffusion-gan.>
+ - **container-Paper Title:** ArXiv
+ - **id:** 0d4154cbd76c4753ba3cb7a5b89ab29bab53384f
+
+
+### Paper Title: Tackling the generative learning trilemma with denoising diffusion GANs
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/0d4154cbd76c4753ba3cb7a5b89ab29bab53384f>
+ - **volume:** abs/2112.07804
+ - **abstract:** Classifier guidance is a recently introduced method to
     trade off mode coverage and sample fidelity in conditional diffusion
     models post training, in the same spirit as low temperature sampling
     or truncation in other types of generative models. Classifier
@@ -1074,20 +730,17 @@ references:
     unconditional diffusion model, and we combine the resulting
     conditional and unconditional score estimates to attain a trade-off
     between sample quality and diversity similar to that obtained using
-    classifier guidance."
-  author:
-  - family: Ho
-    given: Jonathan
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2207.12598
-  id: af9f365ed86614c800f082bd8eb14be76072ad16
-  issued: 2022
-  page: "null"
-  title: Classifier-free diffusion guidance
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/af9f365ed86614c800f082bd8eb14be76072ad16"
-  volume: abs/2207.12598
-- abstract: "Contrastive models like CLIP have been shown to learn
+    classifier guidance.
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2207.12598
+ - **id:** af9f365ed86614c800f082bd8eb14be76072ad16
+
+
+### Paper Title: Classifier-free diffusion guidance
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/af9f365ed86614c800f082bd8eb14be76072ad16>
+ - **volume:** abs/2207.12598
+ - **abstract:** Contrastive models like CLIP have been shown to learn
     robust representations of images that capture both semantics and
     style. To leverage these representations for image generation, we
     propose a two-stage model: a prior that generates a CLIP image
@@ -1102,29 +755,17 @@ references:
     image manipulations in a zero-shot fashion. We use diffusion models
     for the decoder and experiment with both autoregressive and
     diffusion models for the prior, finding that the latter are
-    computationally more efficient and produce higher-quality samples."
-  author:
-  - family: Ramesh
-    given: A.
-  - family: Dhariwal
-    given: Prafulla
-  - family: Nichol
-    given: Alex
-  - family: Chu
-    given: Casey
-  - family: Chen
-    given: Mark
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2204.06125
-  id: c57293882b2561e1ba03017902df9fc2f289dea2
-  issued: 2022
-  page: "null"
-  title: Hierarchical text-conditional image generation with CLIP
-    latents
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/c57293882b2561e1ba03017902df9fc2f289dea2"
-  volume: abs/2204.06125
-- abstract: "We present Muse, a text-to-image Transformer model that
+    computationally more efficient and produce higher-quality samples.
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2204.06125
+ - **id:** c57293882b2561e1ba03017902df9fc2f289dea2
+
+
+### Paper Title: Hierarchical text-conditional image generation with CLIP latents
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/c57293882b2561e1ba03017902df9fc2f289dea2>
+ - **volume:** abs/2204.06125
+ - **abstract:** We present Muse, a text-to-image Transformer model that
     achieves state-of-the-art image generation performance while being
     significantly more efficient than diffusion or autoregressive
     models. Muse is trained on a masked modeling task in discrete token
@@ -1144,44 +785,18 @@ references:
     CLIP score of 0.32. Muse also directly enables a number of image
     editing applications without the need to fine-tune or invert the
     model: inpainting, outpainting, and mask-free editing. More results
-    are available at https://muse-model.github.io"
-  author:
-  - family: Chang
-    given: Huiwen
-  - family: Zhang
-    given: Han
-  - family: Barber
-    given: Jarred
-  - family: Maschinot
-    given: AJ
-  - family: Lezama
-    given: José
-  - family: Jiang
-    given: Lu
-  - family: Yang
-    given: Ming
-  - family: Murphy
-    given: K.
-  - family: Freeman
-    given: W.
-  - family: Rubinstein
-    given: Michael
-  - family: Li
-    given: Yuanzhen
-  - family: Krishnan
-    given: Dilip
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2301.00704
-  id: 2a3213cb3c755f036d5dfec7261d726a819c78c1
-  issued: 2023
-  page: "null"
-  title: "Muse: Text-to-image generation via masked generative
-    transformers"
-  title-short: Muse
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/2a3213cb3c755f036d5dfec7261d726a819c78c1"
-  volume: abs/2301.00704
-- abstract: "In this work, we propose DiffWave, a versatile Diffusion
+    are available at <https://muse-model.github.io>
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2301.00704
+ - **id:** 2a3213cb3c755f036d5dfec7261d726a819c78c1
+
+
+### Paper Title: Muse: Text-to-image generation via masked generative transformers
+ - title-short: Muse
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/2a3213cb3c755f036d5dfec7261d726a819c78c1>
+ - **volume:** abs/2301.00704
+ - **abstract:** In this work, we propose DiffWave, a versatile Diffusion
     probabilistic model for conditional and unconditional Waveform
     generation. The model is non-autoregressive, and converts the white
     noise signal into structured waveform through a Markov chain with a
@@ -1196,28 +811,17 @@ references:
     significantly outperforms autoregressive and GAN-based waveform
     models in the challenging unconditional generation task in terms of
     audio quality and sample diversity from various automatic and human
-    evaluations."
-  author:
-  - family: Kong
-    given: Zhifeng
-  - family: Ping
-    given: Wei
-  - family: Huang
-    given: Jiaji
-  - family: Zhao
-    given: Kexin
-  - family: Catanzaro
-    given: Bryan
-  container-title: ArXiv
-  id: 34bf13e58c7226d615afead0c0f679432502940e
-  issued: 2020
-  page: "null"
-  title: "DiffWave: A versatile diffusion model for audio synthesis"
-  title-short: DiffWave
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/34bf13e58c7226d615afead0c0f679432502940e"
-  volume: abs/2009.09761
-- abstract: "Denoising diffusion probabilistic models (DDPM) are a class
+    evaluations.
+ - **container-Paper Title:** ArXiv
+ - **id:** 34bf13e58c7226d615afead0c0f679432502940e
+
+
+### Paper Title: DiffWave: A versatile diffusion model for audio synthesis
+ - title-short: DiffWave
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/34bf13e58c7226d615afead0c0f679432502940e>
+ - **volume:** abs/2009.09761
+ - **abstract:** Denoising diffusion probabilistic models (DDPM) are a class
     of generative models which have recently been shown to produce
     excellent samples. We show that with a few simple modifications,
     DDPMs can also achieve competitive log-likelihoods while maintaining
@@ -1230,21 +834,16 @@ references:
     show that the sample quality and likelihood of these models scale
     smoothly with model capacity and training compute, making them
     easily scalable. We release our code at
-    https://github.com/openai/improved-diffusion"
-  author:
-  - family: Nichol
-    given: Alex
-  - family: Dhariwal
-    given: Prafulla
-  container-title: ArXiv
-  id: de18baa4964804cf471d85a5a090498242d2e79f
-  issued: 2021
-  page: "null"
-  title: Improved denoising diffusion probabilistic models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/de18baa4964804cf471d85a5a090498242d2e79f"
-  volume: abs/2102.09672
-- abstract: "Diffusion models (DMs) have shown great potential for
+    <https://github.com/openai/improved-diffusion>
+ - **container-Paper Title:** ArXiv
+ - **id:** de18baa4964804cf471d85a5a090498242d2e79f
+
+
+### Paper Title: Improved denoising diffusion probabilistic models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/de18baa4964804cf471d85a5a090498242d2e79f>
+ - **volume:** abs/2102.09672
+ - **abstract:** Diffusion models (DMs) have shown great potential for
     high-quality image synthesis. However, when it comes to producing
     images with complex scenes, how to properly describe both image
     global structures and object details remains a challenging task. In
@@ -1263,32 +862,18 @@ references:
     benchmarks, namely layout-to-image on COCO and OpenImages,
     scene-graph-to-image on COCO and Visual Genome, and label-to-image
     on COCO. Code is available at
-    https://github.com/davidhalladay/Frido."
-  author:
-  - family: Fan
-    given: Wanshu
-  - family: Chen
-    given: Yen-Chun
-  - family: Chen
-    given: Dongdong
-  - family: Cheng
-    given: Yu
-  - family: Yuan
-    given: Lu
-  - family: Wang
-    given: Yu-Chiang Frank
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2208.13753
-  id: fd58295c7146a668caba43880fe03247c4e24b51
-  issued: 2022
-  page: "null"
-  title: "Frido: Feature pyramid diffusion for complex scene image
-    synthesis"
-  title-short: Frido
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/a888dd6d8dd0087fc7d74da8a005922d0923ad2b"
-  volume: abs/2208.13753
-- abstract: "Score-based generative models (SGMs) have recently
+    <https://github.com/davidhalladay/Frido.>
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2208.13753
+ - **id:** fd58295c7146a668caba43880fe03247c4e24b51
+
+
+### Paper Title: Frido: Feature pyramid diffusion for complex scene image synthesis
+ - title-short: Frido
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/a888dd6d8dd0087fc7d74da8a005922d0923ad2b>
+ - **volume:** abs/2208.13753
+ - **abstract:** Score-based generative models (SGMs) have recently
     demonstrated impressive results in terms of both sample quality and
     distribution coverage. However, they are usually applied directly in
     data space and often require thousands of network evaluations for
@@ -1310,21 +895,14 @@ references:
     sample quality while outperforming them in sampling time by two
     orders of magnitude. In modeling binary images, LSGM achieves
     state-of-the-art likelihood on the binarized OMNIGLOT dataset. Our
-    project page and code can be found at https://nvlabs.github.io/LSGM
-    ."
-  author:
-  - family: Vahdat
-    given: Arash
-  - family: Kreis
-    given: Karsten
-  - family: Kautz
-    given: J.
-  id: ad14e11bc97cc2fed0fd344e7cb7d7ce4205bfc6
-  issued: 2021
-  title: Score-based generative modeling in latent space
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/ad14e11bc97cc2fed0fd344e7cb7d7ce4205bfc6"
-- abstract: "Designed to learn long-range interactions on sequential
+    project page and code can be found at <https://nvlabs.github.io/LSGM.>
+ - **id:** ad14e11bc97cc2fed0fd344e7cb7d7ce4205bfc6
+
+
+### Paper Title: Score-based generative modeling in latent space
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/ad14e11bc97cc2fed0fd344e7cb7d7ce4205bfc6>
+ - **abstract:** Designed to learn long-range interactions on sequential
     data, transformers continue to show state-of-the-art results on a
     wide variety of tasks. In contrast to CNNs, they contain no
     inductive bias that prioritizes local interactions. This makes them
@@ -1341,25 +919,18 @@ references:
     segmentations, can control the generated image. In particular, we
     present the first results on semantically-guided synthesis of
     megapixel images with transformers. Project page at
-    https://git.io/JLlvY."
-  author:
-  - family: Esser
-    given: Patrick
-  - family: Rombach
-    given: Robin
-  - family: Ommer
-    given: B.
-  container-title: 2021 IEEE/CVF Conference on Computer Vision and
+    <https://git.io/JLlvY.>
+ - **container-Paper Title:** 2021 IEEE/CVF Conference on Computer Vision and
     Pattern Recognition (CVPR)
-  doi: 10.1109/CVPR46437.2021.01268
-  id: 47f7ec3d0a5e6e83b6768ece35206a94dc81919c
-  issued: 2020
-  page: 12868-12878
-  title: Taming transformers for high-resolution image synthesis
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/47f7ec3d0a5e6e83b6768ece35206a94dc81919c"
-  volume: "null"
-- abstract: The integration of Vector Quantised Variational AutoEncoder
+ - **doi:** 10.1109/CVPR46437.2021.01268
+ - **id:** 47f7ec3d0a5e6e83b6768ece35206a94dc81919c
+
+
+### Paper Title: Taming transformers for high-resolution image synthesis
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/47f7ec3d0a5e6e83b6768ece35206a94dc81919c>
+ - **volume:** null
+ - **abstract:** The integration of Vector Quantised Variational AutoEncoder
     (VQ-VAE) with autoregressive models as generation part has yielded
     high-quality results on image generation. However, the
     autoregressive models will strictly follow the progressive scanning
@@ -1385,29 +956,17 @@ references:
     also demonstrates outstanding advantages over other vectors
     quantised with autoregressive models in terms of image inpainting
     tasks without additional training.
-  author:
-  - family: Hu
-    given: Minghui
-  - family: Wang
-    given: Yujie
-  - family: Cham
-    given: Tat-Jen
-  - family: Yang
-    given: Jianfei
-  - family: N.Suganthan
-    given: P.
-  container-title: 2022 IEEE/CVF Conference on Computer Vision and
+ - **container-Paper Title:** 2022 IEEE/CVF Conference on Computer Vision and
     Pattern Recognition (CVPR)
-  doi: 10.1109/CVPR52688.2022.01121
-  id: 64ac9c65c8f1e0a96a6d79facf548214103d0cbc
-  issued: 2021
-  page: 11492-11501
-  title: Global context with discrete diffusion in vector quantised
-    modelling for image generation
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/64ac9c65c8f1e0a96a6d79facf548214103d0cbc"
-  volume: "null"
-- abstract: We introduce a new generative model where samples are
+ - **doi:** 10.1109/CVPR52688.2022.01121
+ - **id:** 64ac9c65c8f1e0a96a6d79facf548214103d0cbc
+
+
+### Paper Title: Global context with discrete diffusion in vector quantised modelling for image generation
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/64ac9c65c8f1e0a96a6d79facf548214103d0cbc>
+ - **volume:** null
+ - **abstract:** We introduce a new generative model where samples are
     produced via Langevin dynamics using gradients of the data
     distribution estimated with score matching. Because gradients can be
     ill-defined and hard to estimate when the data resides on
@@ -1425,21 +984,15 @@ references:
     a new state-of-the-art inception score of 8.87 on CIFAR-10.
     Additionally, we demonstrate that our models learn effective
     representations via image inpainting experiments.
-  author:
-  - family: Song
-    given: Yang
-  - family: Ermon
-    given: S.
-  container-title: ArXiv
-  id: 965359b3008ab50dd04e171551220ec0e7f83aba
-  issued: 2019
-  page: "null"
-  title: Generative modeling by estimating gradients of the data
-    distribution
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/965359b3008ab50dd04e171551220ec0e7f83aba"
-  volume: abs/1907.05600
-- abstract: "Generative image synthesis with diffusion models has
+ - **container-Paper Title:** ArXiv
+ - **id:** 965359b3008ab50dd04e171551220ec0e7f83aba
+
+
+### Paper Title: Generative modeling by estimating gradients of the data distribution
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/965359b3008ab50dd04e171551220ec0e7f83aba>
+ - **volume:** abs/1907.05600
+ - **abstract:** Generative image synthesis with diffusion models has
     recently achieved excellent visual quality in several tasks such as
     text-based or class-conditional image synthesis. Much of this
     success is due to a dramatic increase in the computational capacity
@@ -1458,26 +1011,17 @@ references:
     where it achieves state-of-the-art performance. Our approach incurs
     low computational and memory overheads and is easy to implement. We
     discuss its relationship to concurrent work and will publish code
-    and pretrained models soon."
-  author:
-  - family: Blattmann
-    given: A.
-  - family: Rombach
-    given: Robin
-  - family: Oktay
-    given: K.
-  - family: Ommer
-    given: B.
-  container-title: ArXiv
-  doi: 10.48550/arXiv.2204.11824
-  id: a55d097b30bc881ec859a00ca00c34e33f247caf
-  issued: 2022
-  page: "null"
-  title: Retrieval-augmented diffusion models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/33f3f31f871070f19b0c3e967a24e322bfc178f2"
-  volume: abs/2204.11824
-- abstract: Creating noise from data is easy; creating data from noise
+    and pretrained models soon.
+ - **container-Paper Title:** ArXiv
+ - **doi:** 10.48550/arXiv.2204.11824
+ - **id:** a55d097b30bc881ec859a00ca00c34e33f247caf
+
+
+### Paper Title: Retrieval-augmented diffusion models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/33f3f31f871070f19b0c3e967a24e322bfc178f2>
+ - **volume:** abs/2204.11824
+ - **abstract:** Creating noise from data is easy; creating data from noise
     is generative modeling. We present a stochastic differential
     equation (SDE) that smoothly transforms a complex data distribution
     to a known prior distribution by slowly injecting noise, and a
@@ -1505,29 +1049,15 @@ references:
     competitive likelihood of 2.99 bits/dim, and demonstrate high
     fidelity generation of 1024 x 1024 images for the first time from a
     score-based generative model.
-  author:
-  - family: Song
-    given: Yang
-  - family: Sohl-Dickstein
-    given: Jascha Narain
-  - family: Kingma
-    given: Diederik P.
-  - family: Kumar
-    given: Abhishek
-  - family: Ermon
-    given: S.
-  - family: Poole
-    given: Ben
-  container-title: ArXiv
-  id: 633e2fbfc0b21e959a244100937c5853afca4853
-  issued: 2020
-  page: "null"
-  title: Score-based generative modeling through stochastic differential
-    equations
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/633e2fbfc0b21e959a244100937c5853afca4853"
-  volume: abs/2011.13456
-- abstract: We present SR3, an approach to image Super-Resolution via
+ - **container-Paper Title:** ArXiv
+ - **id:** 633e2fbfc0b21e959a244100937c5853afca4853
+
+
+### Paper Title: Score-based generative modeling through stochastic differential equations
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/633e2fbfc0b21e959a244100937c5853afca4853>
+ - **volume:** abs/2011.13456
+ - **abstract:** We present SR3, an approach to image Super-Resolution via
     Repeated Refinement. SR3 adapts denoising diffusion probabilistic
     models (Ho et al. 2020), (Sohl-Dickstein et al. 2015) to
     image-to-image translation, and performs super-resolution through a
@@ -1539,31 +1069,17 @@ references:
     magnification factors, on faces and natural images. We conduct human
     evaluation on a standard 8× face super-resolution task on CelebA-HQ
     for which SR3 achieves a fool rate close to 50
-  author:
-  - family: Saharia
-    given: Chitwan
-  - family: Ho
-    given: Jonathan
-  - family: Chan
-    given: William
-  - family: Salimans
-    given: Tim
-  - family: Fleet
-    given: David J.
-  - family: Norouzi
-    given: Mohammad
-  container-title: IEEE Transactions on Pattern Analysis and Machine
+ - **container-Paper Title:** IEEE Transactions on Pattern Analysis and Machine
     Intelligence
-  doi: 10.1109/TPAMI.2022.3204461
-  id: 8a1ea7b6e7e834d146ad782be5d63f57f806a9cc
-  issued: 2021
-  page: 4713-4726
-  pmid: 36094974
-  title: Image super-resolution via iterative refinement
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/8a1ea7b6e7e834d146ad782be5d63f57f806a9cc"
-  volume: 45
-- abstract: Novel architectures have recently improved generative image
+ - **doi:** 10.1109/TPAMI.2022.3204461
+ - **id:** 8a1ea7b6e7e834d146ad782be5d63f57f806a9cc36094974
+
+
+### Paper Title: Image super-resolution via iterative refinement
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/8a1ea7b6e7e834d146ad782be5d63f57f806a9cc>
+ - **volume:** 45
+ - **abstract:** Novel architectures have recently improved generative image
     synthesis leading to excellent visual quality in various tasks. Much
     of this success is due to the scalability of these architectures and
     hence caused by a dramatic increase in model complexity and in the
@@ -1587,23 +1103,13 @@ references:
     for the external database and retrieval we can significantly reduce
     the parameter count of the generative model and still outperform the
     state-of-the-art.
-  author:
-  - family: Blattmann
-    given: A.
-  - family: Rombach
-    given: Robin
-  - family: Oktay
-    given: Kaan
-  - family: Muller
-    given: Jonas
-  - family: Ommer
-    given: B.
-  id: 0221d3f45899e226ba7840ca9b19117de3a394bc
-  issued: 2022
-  title: Semi-parametric neural image synthesis
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/0221d3f45899e226ba7840ca9b19117de3a394bc"
-- abstract: Diffusion models learn to restore noisy data, which is
+ - **id:** 0221d3f45899e226ba7840ca9b19117de3a394bc
+
+
+### Paper Title: Semi-parametric neural image synthesis
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/0221d3f45899e226ba7840ca9b19117de3a394bc>
+ - **abstract:** Diffusion models learn to restore noisy data, which is
     corrupted with different levels of noise, by optimizing the weighted
     sum of the corresponding loss terms, i.e., denoising score matching
     loss. In this paper, we show that restoring data corrupted with
@@ -1614,28 +1120,18 @@ references:
     redesign of the weighting scheme significantly improves the
     performance of diffusion models regardless of the datasets,
     architectures, and sampling strategies.
-  author:
-  - family: Choi
-    given: Jooyoung
-  - family: Lee
-    given: Jungbeom
-  - family: Shin
-    given: Chaehun
-  - family: Kim
-    given: Sungwon
-  - family: Kim
-    given: Hyunwoo J.
-  - family: Yoon
-    given: Sung-Hoon
-  container-title: 2022 IEEE/CVF Conference on Computer Vision and
+ - **container-Paper Title:** 2022 IEEE/CVF Conference on Computer Vision and
     Pattern Recognition (CVPR)
-  doi: 10.1109/CVPR52688.2022.01118
-  id: 580086afeb62eb0303611daaf6de7ca9d1ae29cd
-  issued: 2022
-  page: 11462-11471
-  title: Perception prioritized training of diffusion models
-  type: article-journal
-  url: "https://www.semanticscholar.org/paper/580086afeb62eb0303611daaf6de7ca9d1ae29cd"
-  volume: "null"
----
+ - **doi:** 10.1109/CVPR52688.2022.01118
+ - **id:** 580086afeb62eb0303611daaf6de7ca9d1ae29cd
 
+
+### Paper Title: Perception Prioritized Training of Diffusion Models
+ - **type:** article-journal
+ - **url:** <https://www.semanticscholar.org/paper/580086afeb62eb0303611daaf6de7ca9d1ae29cd>
+ - **abstract:** Diffusion models learn to restore noisy data which is corrupted with different levels of noise by optimizing the weighted sum of the corresponding loss terms i.e. denoising score matching loss. In this paper we show that restoring data corrupted with certain noise levels offers a proper pretext task for the model to learn rich visual concepts. We propose to prioritize such noise levels over other levels during training by redesigning the weighting scheme of the objective function. We show that our simple redesign of the weighting scheme significantly improves the performance of diffusion models regardless of the datasets architectures and sampling strategies.
+ - journal: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+ - **volume:** null
+ - pages: 11462-11471
+ - **doi:** 10.1109/CVPR52688.2022.01118
+ - arxivid: 2204.00227
