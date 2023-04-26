@@ -14,6 +14,9 @@ Make Jelly site have a GitBook look!
 - :baby_chick: Computer Vision
 - :blossom: Time series data analysis and prediction
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6f048df (Update README.md)
+=======
 >>>>>>> parent of 6f048df (Update README.md)
 =======
 >>>>>>> parent of 6f048df (Update README.md)
