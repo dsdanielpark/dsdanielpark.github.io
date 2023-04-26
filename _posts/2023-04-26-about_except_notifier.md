@@ -1,7 +1,7 @@
 ---
 title: About ExceptNotifier 
 author: Daniel Park
-date: 2021-08-10
+date: 2023-04-26
 category: Jekyll
 layout: post
 ---
