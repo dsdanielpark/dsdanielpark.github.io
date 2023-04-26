@@ -4,7 +4,16 @@ title: Jekyll Gitbook Theme
 permalink: /
 ---
 
+<<<<<<< HEAD
 Make Jelly site have a GitBook look!
+=======
+## Topic
+- :star2: Model lightweighting
+- :rabbit2: Optimization
+- :sunrise: Natural language processing
+- :baby_chick: Computer Vision
+- :blossom: Time series data analysis and prediction
+>>>>>>> parent of 6f048df (Update README.md)
 
 ## Demo
 
