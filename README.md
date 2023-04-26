@@ -3,10 +3,10 @@
 
 ## Topic
 - :star2: Model lightweighting
-- :rabbit2: Optimization
-- :sunrise: Natural language processing
-- :baby_chick: Computer Vision
-- :blossom: Time series data analysis and prediction
+- :star2: Optimization
+- :star2: Natural language processing
+- :star2: Computer Vision
+- :star2: Time series data analysis and prediction
 
 ## Build
 [Jekyll](https://jekyllrb.com) with the following:
