@@ -1,14 +1,19 @@
-# About
- I am a passionate developer who enjoys learning and implementing innovative ideas while documenting and sharing my knowledge with others.
+---
+layout: home
+title: MinWoo Park
+permalink: /
+---
+
+I enjoys learning and implementing innovative ideas while documenting and sharing my knowledge with others.
 
 ## Topic
-- :star2: Model lightweighting
-- :star2: Optimization
-- :star2: Natural language processing
-- :star2: Computer Vision
-- :star2: Time series data analysis and prediction
+- Model lightweighting
+- Optimization
+- Natural language processing
+- Computer Vision
+- Time series data analysis and prediction
 
-## Build
+## Blog Build
 [Jekyll](https://jekyllrb.com) with the following:
 - [Ruby](https://www.ruby-lang.org/en/) version 2.5.0 or higher
 - [RubyGems](https://rubygems.org/)

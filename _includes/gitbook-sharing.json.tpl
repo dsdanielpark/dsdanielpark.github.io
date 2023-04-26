@@ -1,6 +1,6 @@
             "sharing": {
                 "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"],
-                "facebook": true,
+                "facebook": false,
                 "google": false,
                 "github": true,
                 "github_link": "https://github.com/dsdanielpark",
