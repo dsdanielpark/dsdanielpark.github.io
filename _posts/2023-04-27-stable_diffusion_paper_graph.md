@@ -7,8 +7,6 @@ layout: post
 ---
 
 
-Copyright (c) 2023 MinWoo Park, South Korea
-All Copyright (c) Reserved.
 
 ## Main Paper
 
