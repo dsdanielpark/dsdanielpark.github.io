@@ -13,6 +13,9 @@ Make Jelly site have a GitBook look!
 - :sunrise: Natural language processing
 - :baby_chick: Computer Vision
 - :blossom: Time series data analysis and prediction
+<<<<<<< HEAD
+>>>>>>> parent of 6f048df (Update README.md)
+=======
 >>>>>>> parent of 6f048df (Update README.md)
 
 ## Demo
