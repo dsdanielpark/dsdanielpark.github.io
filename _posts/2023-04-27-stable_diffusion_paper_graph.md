@@ -1130,8 +1130,8 @@ layout: post
  - **type:** article-journal
  - **url:** <https://www.semanticscholar.org/paper/580086afeb62eb0303611daaf6de7ca9d1ae29cd>
  - **abstract:** Diffusion models learn to restore noisy data which is corrupted with different levels of noise by optimizing the weighted sum of the corresponding loss terms i.e. denoising score matching loss. In this paper we show that restoring data corrupted with certain noise levels offers a proper pretext task for the model to learn rich visual concepts. We propose to prioritize such noise levels over other levels during training by redesigning the weighting scheme of the objective function. We show that our simple redesign of the weighting scheme significantly improves the performance of diffusion models regardless of the datasets architectures and sampling strategies.
- - journal: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+ - **journal:** 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
  - **volume:** null
- - pages: 11462-11471
+ - **pages:** 11462-11471
  - **doi:** 10.1109/CVPR52688.2022.01118
- - arxivid: 2204.00227
+ - **arxivid:** 2204.00227
