@@ -155,10 +155,10 @@
 /* Custom font settings */
 
 .book.font-family-0 {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
 }
 .book.font-family-1 {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
 }
 
 /* Render wide tables */
