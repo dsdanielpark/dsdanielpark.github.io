@@ -24,14 +24,13 @@ layout: post
 
 <br><br>
 
+## ExceptNotifier 구현에 대하여
 
 - ExceptNotifier Python
 
     예외발생시 traceback된 에러 메시지를 메신저나 메일로 발송하기위해 `sys.excepthook`에 오버라이딩하였습니다. 파이썬 프로그래밍 실행 중 try-except문에서 예외 발생시 error class, error instance, traceback object를 인자로 받아 인터프리터가 `sys.excepthook`을 호출하는 것을 이용하였습니다. `sys.excepthook`이 시스템 종료 직전에 발생하는 최상위 예외 처리이므로, ExceptNotifier는 `BaseException`을 상속받아 `sys.excepthook`에 오버라이딩할 수 있도록 구성하였습니다. 발생시킬 수 없는 예외 혹은 쓰레드에서 발생시킨 예외에 대한 오버라이딩은 각각 `sys.unraisablehook()`함수와 `threading.excepthook()`함수를 참조하여 비슷하게 구현할 수 있으나 이 경우는 고려하지 않았습니다. 
     
     *참조:* [sys.excepthook](https://docs.python.org/ko/3/library/sys.html#sys.excepthook)
-
-<br>
 
 - ExceptNotifier in IPython
 
@@ -42,10 +41,8 @@ layout: post
     처음에는 `magics` in cell을 고려하였으나, 매번 셸에서 magic line을 선언해줘야하는 번거로운 시나리오를 피하고자 한번만 오버라이딩하여도 작동할 수 있도록 작업하였습니다. `set_custom_exc`는 메인 루프(특히 run_code() 메서드)에서 exc_tuple의 예외가 발생할 경우 호출되는 사용자 지정 예외 처리기로 핸들러는 구조화된 트레이스 백 객체나 None을 반환할 수 있도록 설계되어있으므로 트레이스 백을 리턴 받는 프로세스 도중에 ExceptNotifier의 액션을 구현하였습니다. 위에서 설명한바와 같이 `sys.excepthook`과 다르게 IPython에서는 예외처리와 호출, 프로세스 중단 순서가 다르므로 한번의 오버라이딩 이후 except문에서 raise를 호출하기만해도 정상적으로 작동할 수 있습니다. 즉, Python에서 사용시는 ExceptTelegram과 같이 excepthook을 호출해주어야하지만 Ipython에서 set_custom_exc로 Exception에 사용자 지정함수를 한번 오버라이딩하면 그 다음부터 except문과 raise호출만으로도 원하는 ExceptNotifier의 액션을 취할 수 있습니다.
 
     *참조:*
-    [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html),
-    [set_custom_exc](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html)
+    [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html), [set_custom_exc](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html)
 
-<br>
 
 - 환경변수
 
