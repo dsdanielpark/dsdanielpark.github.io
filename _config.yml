@@ -56,7 +56,7 @@ collections:
 page_width: 800px
 
 destination:      ./_site
-incremental:      true
+incremental:      false
 regenerate:       true
 
 plugins:
