@@ -1,16 +1,11 @@
 ---
-Paper Title: GPT-4 Technical Report
+title: GPT-4 Technical Report
 author: Daniel Park
 date: 2023-04-27
 category: nlp
 layout: post
 ---
 
-
-
-## Main Paper
-
-### High-Resolution Image Synthesis with Latent Diffusion Models
  - **url:** <https://arxiv.org/abs/2303.08774>
  - **abstract:** By decomposing the image formation process into a sequential
     application of denoising autoencoders, diffusion models (DMs)

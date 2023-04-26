@@ -5,9 +5,10 @@ date: 2023-04-25
 category: Jekyll
 layout: post
 ---
-안녕하세요.
+안녕하세요. 박민우입니다. <br>
 I am striving to become a perceptive developer and a proficient, agile engineer. I believe that, ultimately, all the knowledge I've gained will harmonize at the end of this journey. Currently, I work as a developer in Korea, with a strong passion for artificial intelligence. My experience includes project execution and planning for major corporations such as the Hyundai Motor Group.
 
+South Korea, Seoul.
 
 #### *Where there’s a will, there’s a way.*
 I am training to become a insightful developer and a skillful and quick-witted engineer. <br>

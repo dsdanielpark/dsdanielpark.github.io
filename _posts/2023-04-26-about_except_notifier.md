@@ -7,13 +7,24 @@ layout: post
 ---
 
 
-Copyright (c) 2023 MinWoo Park, South Korea
-All Copyright (c) Reserved.
-
-- Official Github: https://github.com/dsdanielpark/ExceptNotifier
-- Official Document: https://exceptnotifier.readthedocs.io/en/latest/
 
 
+<br>
+
+### Install 
+
+```
+pip install ExceptNotifier
+```
+
+### Official Github: 
+<https://github.com/dsdanielpark/ExceptNotifier>
+
+### Official Document: 
+<https://exceptnotifier.readthedocs.io/en/latest/>
+
+
+#### Dev Note
 1. Applying ExceptNotifier in Python
 
     In Python, we use [sys.excepthook](https://docs.python.org/ko/3/library/sys.html#sys.excepthook) to call the exceptnotifier by taking advantage of the interpreter calling sys.excepthook with three arguments (exception class, exception instance, traceback object) when an exception occurs. Since sys.excepthook is the highest-level exception handler that occurs just before the system shuts down, exceptnotifier is implemented as a class that inherits from baseexception and overrides sys.excepthook. For overriding exceptions that cannot be raised or exceptions raised in threads, please refer to the sys.unraisablehook() function and the threading.excepthook() function, respectively.
@@ -32,7 +43,7 @@ All Copyright (c) Reserved.
 
 <br><br>
 
-### ExceptNotifier 구현에 대하여
+#### 개발자 노트
 
 - ExceptNotifier Python
 
@@ -55,3 +66,8 @@ All Copyright (c) Reserved.
 - 환경변수
 
     파이썬의 except 문에서는 `BaseException`를 반드시 상속받아야만 하도록 설계되어있으므로, 클래스 안으로 변수를 전달할 방법을 고민하였고, 다양한 방법에 대한 실험을 수행하였습니다. 최종적으로 패키지로 배포하여 사용하기 위해서 `os.environ`을 통해 변수를 설정하기로 결정하였고, 시나리오상 사용자의 `WebHook URL`이나 `API Key`값을 자주 변경할 필요가 없으므로 대문자로 변수명을 표기하고, 중복되어 변수가 오염되는 것을 막기 위해서 특이한 이름으로 설정함과 동시에 클래스 내부에서 사용되는 변수이므로 변수명 앞에 _를 붙였습니다.
+
+<br><br>
+
+Copyright (c) 2023 MinWoo Park, South Korea <br>
+All Copyright (c) Reserved.
