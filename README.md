@@ -7,6 +7,7 @@ permalink: /
 I enjoys learning and implementing innovative ideas while documenting and sharing my knowledge with others.
 
 ## Topics
+- Core: AI for life (Biotechnology, Medical AI)
 - Model lightweighting
 - Optimization
 - Natural language processing
