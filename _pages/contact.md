@@ -2,7 +2,7 @@
 title: Contacts
 author: parkminwoo
 date: 2023-04-25
-category: Jekyll
+category: profile
 layout: post
 ---
 
