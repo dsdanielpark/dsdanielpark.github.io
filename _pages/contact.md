@@ -6,7 +6,7 @@ category: profile
 layout: post
 ---
 
-![](https://dsdanielpark.github.io/assets/profile/koreaheart.png)
+![](https://dsdanielpark.github.io/assets/profile/callme.png)
 
 Advice, encouragement, or any type of inquiry is always welcome. Please feel free to contact me through the GitHub issue page, email, or any other convenient method. I am always open to new opportunities and ideas. I would be grateful to review any proposals for side project collaborations. My main focus is on Python development, possessing intermediate to advanced skills in AI models, data analysis, and machine learning. Additionally, I have knowledge and certifications in Solidity and Golang, as well as a shallow understanding and interest in backend and frontend development. I always enjoy creating new things with a learning mindset.
 
