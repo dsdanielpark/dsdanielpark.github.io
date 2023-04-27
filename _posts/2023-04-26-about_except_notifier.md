@@ -47,9 +47,9 @@ pip install ExceptNotifier
 
 #### 개발자 노트
 
-- ExceptNotifier Python
+- ExceptNotifier in Python
 
-    예외발생시 traceback된 에러 메시지를 메신저나 메일로 발송하기위해 `sys.excepthook`에 오버라이딩하였습니다. Python 프로그래밍 실행 중 try-except문에서 예외 발생시 error class, error instance, traceback object를 인자로 받아 인터프리터가 `sys.excepthook`을 호출하는 것을 이용하였습니다. `sys.excepthook`이 시스템 종료 직전에 발생하는 최상위 예외 처리이므로, ExceptNotifier는 `BaseException`을 상속받아 `sys.excepthook`에 오버라이딩할 수 있도록 구성하였습니다. 발생시킬 수 없는 예외 혹은 쓰레드에서 발생시킨 예외에 대한 오버라이딩은 각각 `sys.unraisablehook()`함수와 `threading.excepthook()`함수를 참조하여 비슷하게 구현할 수 있으나 이 경우는 고려하지 않았습니다. 
+    예외발생시 traceback된 에러 메시지를 메신저나 메일로 발송하기위해 `sys.excepthook`에 오버라이딩하였습니다. Python 프로그래밍 실행 중 try-except문에서 예외 발생시 error class, error instance, traceback object를 인자로 받아 인터프리터가 `sys.excepthook`을 호출하는 것을 이용하였습니다. `sys.excepthook`이 시스템 종료 직전에 호출되는 최상위 예외 처리기이므로, ExceptNotifier는 `BaseException`을 상속받아 `sys.excepthook`에 오버라이딩할 수 있도록 구성하였습니다. 발생시킬 수 없는 예외 혹은 쓰레드에서 발생시킨 예외에 대한 오버라이딩은 각각 `sys.unraisablehook()`함수와 `threading.excepthook()`함수를 참조하여 비슷하게 구현할 수 있으나 이 경우는 고려하지 않았습니다. 
     
     *참조:* [sys.excepthook](https://docs.python.org/ko/3/library/sys.html#sys.excepthook)
 
@@ -57,10 +57,9 @@ pip install ExceptNotifier
 
     > 엄밀히 따지자면 IPython은 패키지로, Python과 같은 프로그래밍 언어는 아니지만 이해를 돕기 위해 분리하여 작성하였습니다.
 
-    IPython(Interactive Python)은 Python을 이용해 상호작용적인 컴퓨팅을 하기 위해 고안된 패키지입니다. IPython은
-    Interactive Shell이라는 개념을 통해 대화식 세션으로 Python을 부분씩 컴파일할 수 있는 매우 유용한 패키지이지만, IPython에서는 Python과 다르게 `sys.excepthook`에 의한 제어가 프롬프트 반환 직전에 일어나게 되므로 `sys.excepthook`을 사용하여 트레이스백 객체(traceback object)를 받아 오류 메시지를 각 메신저 앱으로 발송하는 것(이하 ExceptNotifier의 "액션" 혹은 "목적"으로 칭함)이 불가능하였습니다. 또한 `excepthook`에 오버라이딩할 클래스는 반드시 `BaseException`을 상속받아야만 하는 Python의 규칙때문에, IPython에서는 `sys.excepthook`을 통해 ExceptNotifier의 액션을 취할 수 있도록 조정하기 어려웠습니다. 무엇보다 오류 발생 시, 시스템 종료 순서와 호출되는 클래스와 메서드들이 상이하였으므로 다른 방법을 통해 ExceptNotifier의 목적을 달성하여야 했습니다.
-    처음에는 `magics`를 통한 magic line을 고려하였으나, 매번 셸에서 magic line을 반복하여 선언해 줘야 하는 번거로운 시나리오가 예상되었습니다. 패키지의 시나리오가 '사용자가 부재 시 원격으로 Python 프로그램의 상태를 체크하는 것'이기 때문에 패키지의 시공간적 효율이 떨어지더라도 사용 편의성을 최우선으로 하였습니다. 따라서, 한 번만 오버라이딩하여도 편하게 반복 사용할 수 있는 방법을 고민하였고, 사용자화할 수 있는 메서드들을 찾던 도중 발견한 
-    `set_custom_exc`을 발견하였습니다. `set_custom_exc`는 메인 루프(특히 run_code() 메서드)에서 exc_tuple의 예외가 발생할 경우 호출되는 사용자 지정 예외 처리기입니다. `set_custom_exc`의 핸들러는 구조화된 트레이스 백 객체나 None을 반환하도록 설계되어 있으므로 트레이스 백 객체를 리턴 받는 프로세스 도중에 ExceptNotifier의 액션을 구현하였습니다. 위에서 설명한 바와 같이 Python과 다르게 IPython에서는 예외 처리와 호출, 프로세스 중단 순서가 다르므로 한 번의 오버라이딩 이후 except문에서 raise를 호출하기만 해도 정상적으로 작동합니다. 즉, Python에서는 ExceptTelegram과 같이 오버라이딩 된 `sys.excepthook`을 except문에서 매번 호출해줘야 하는 반면, Ipython에서는 `set_custom_exc`로 `Exception`에 사용자 지정함수를 한번 오버라이딩하면 그다음부터 별도의 선언없이 `except`에서 `raise`를 호출하는 것만으로도 원하는 ExceptNotifier의 액션을 반복해서 취할 수 있습니다.
+    IPython(Interactive Python)은 Python을 통해 상호작용적인 컴퓨팅을 하기 위해 고안된 패키지입니다. IPython은
+    Interactive Shell이라는 개념을 고안하여 대화식 세션으로 Python을 부분씩 컴파일할 수 있는 매우 유용한 패키지이지만, IPython에서는 Python과 다르게 `sys.excepthook`에 의한 제어가 프롬프트 반환 직전에 일어나게 되므로 `sys.excepthook`을 사용하여 트레이스백 객체(traceback object)를 받아 오류 메시지를 각 메신저 앱으로 발송하는 것(이하 ExceptNotifier의 "액션" 혹은 "목적"으로 칭함)이 불가능하였습니다. 또한 `excepthook`에 오버라이딩할 클래스는 반드시 `BaseException`을 상속받아야만 하는 Python의 규칙때문에, IPython에서는 `sys.excepthook`을 통해 ExceptNotifier의 액션을 취할 수 있도록 조정하기 어려웠습니다. 오류 발생 시 시스템 종료 순서, 호출되는 클래스와 메서드들이 상이하였기 때문에 다른 방법을 통해 ExceptNotifier의 목적을 달성하여야만 했습니다.
+    처음에는 `magics`를 통한 구현(magic line)을 고려하였으나, 매번 셸에서 magic line을 반복하여 선언해 줘야 하는 번거로운 시나리오가 예상되었습니다. 목표한 패키지 유즈 케이스가 '사용자 부재 시 원격으로 Python 프로그램의 상태를 체크하는 것'이기 때문에 코드의 시공간적 효율이 다소 떨어지더라도 사용자 편의성에 집중하기로 결정하였습니다. 따라서, 한 번만 오버라이딩하여도 편하게 반복 사용할 수 있는 방법을 고민하였고, 사용자화할 수 있는 메서드들을 찾던 도중 `set_custom_exc`을 발견하였습니다. `set_custom_exc`는 메인 루프(특히 run_code() 메서드)에서 exc_tuple의 예외가 발생할 경우 호출되는 사용자 지정 예외 처리기입니다. `set_custom_exc`의 핸들러는 구조화된 트레이스 백 객체나 None을 반환하도록 설계되어 있으므로 트레이스 백 객체를 리턴 받는 프로세스 도중에 ExceptNotifier의 액션을 구현하였습니다. 위에서 설명한 바와 같이 Python과 다르게 IPython에서는 예외 처리와 호출, 프로세스 중단 순서가 다르므로 한 번의 오버라이딩 이후 except문에서 raise를 호출하기만 해도 정상적으로 작동합니다. 즉, Python에서는 ExceptTelegram과 같이 오버라이딩 된 `sys.excepthook`을 except문에서 매번 호출해줘야 하는 반면, Ipython에서는 `set_custom_exc`로 `Exception`에 사용자 지정함수를 한번 오버라이딩하면 그다음부터 별도의 선언없이 `except`에서 `raise`를 호출하는 것만으로도 원하는 ExceptNotifier의 액션을 반복해서 취할 수 있습니다.
 
     *참조:*
     [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html), [set_custom_exc](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html)
