@@ -29,20 +29,21 @@ pip install ExceptNotifier
 #### Dev Note
 1. Applying ExceptNotifier in Python
 
-    In Python, we use [sys.excepthook](https://docs.python.org/ko/3/library/sys.html#sys.excepthook) to call the exceptnotifier by taking advantage of the interpreter calling sys.excepthook with three arguments (exception class, exception instance, traceback object) when an exception occurs. Since sys.excepthook is the highest-level exception handler that occurs just before the system shuts down, exceptnotifier is implemented as a class that inherits from baseexception and overrides sys.excepthook. For overriding exceptions that cannot be raised or exceptions raised in threads, please refer to the sys.unraisablehook() function and the threading.excepthook() function, respectively.
+    In Python, I use [sys.excepthook](https://docs.python.org/ko/3/library/sys.html#sys.excepthook) to call the ExceptNotifier by taking advantage of the interpreter calling `sys.excepthook` with three arguments (exception class, exception instance, traceback object) when an exception occurs. Since `sys.excepthook` is the highest-level exception handler that occurs just before the system shuts down, ExceptNotifier is implemented as a class that inherits from [BaseException](https://docs.python.org/3/library/exceptions.html) and overrides `sys.excepthook`. For overriding exceptions that cannot be raised or exceptions raised in threads, please refer to the sys.`unraisablehook()` function and the`threading.excepthook()` function, respectively.
 
-2. Application of ExceptNotifier in iPython
+2. Application of ExceptNotifier in IPython
 
-    Strictly, iPython is a package, not a programming language like Python, but it has been classified to aid understanding.
+    > Strictly, IPython is a package, not a programming language like Python, but it has been classified to aid understanding.
+    
     IPython (Interactive Python) is a package consisting of a command shell for interactive computing for multiple programming languages.
 
-    It is a very useful package that allows you to compile Python bit by bit in an interactive session through the concept of an interactive shell, but in iPython, control by sys.excepthook occurs just before the prompt is returned, so it is impossible to receive a traceback object using sys.excepthook and send an error message to each messenger app. Additionally, because it was necessary to inherit from baseexception, it was necessary to override other functions in iPython.
+    It is a very useful package that allows you to compile Python bit by bit in an interactive session through the concept of an interactive shell, but in IPython, control by `sys.excepthook` occurs just before the prompt is returned, so it is impossible to receive a traceback object using `sys.excepthook` and send an error message to each messenger app. Additionally, because it was necessary to inherit from BaseException, it was necessary to override other functions in IPython.
 
-    Therefore, at first, we considered the [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html) in cell, but the problem of having to import the magic function every time in the cell can be cumbersome to use, so we decided to use the [set_custom_exc](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html) in iPython, which can work even by overriding it once. The set_custom_exc allows you to set a custom exception handler that is called when an exception in the exc_tuple occurs in the main loop (especially the run_code() method), and is designed so that the handle can return a structured traceback or None. Therefore, we can receive the traceback and send it to each messenger app. The order of top-level exception handling in iPython is different. You can use by `calling` raise in the `except` statement.
+    Therefore, at first, I considered the [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html) in cell, but the problem of having to import the magic function every time in the cell can be cumbersome to use, so I decided to use the [set_custom_exc](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html) in IPython, which can work even by overriding it once. The `set_custom_exc` allows you to set a custom exception handler that is called when an exception in the exc_tuple occurs in the main loop (especially the `run_code()` method), and is designed so that the handle can return a structured traceback or None. Therefore, I can receive the traceback and send it to each messenger app. The order of top-level exception handling in IPython is different. You can use by `calling` raise in the `except` statement.
 
 3. Using Environment Variables (environ) 
 
-    In Python's except statement, it was designed to inherit exceptionbase, so we thought about how to pass variables into the class and decided to set variables through os.environ to use them by distributing them as a package. Additionally, since the user's webhook URL or API key will not change, we named the variables in uppercase and set special names to prevent contamination from duplicate variables. Since the variables are used within the class, we added an underscore before the variable name.
+    In Python's except statement, it was designed to inherit `ExceptionBase`, so I thought about how to pass variables into the class and decided to set variables through `os.environ` to use them by distributing them as a package. Additionally, since the user's webhook URL or API key will not change, I named the variables in uppercase and set special names to prevent contamination from duplicate variables. Since the variables are used within the class, I added an underscore before the variable name.
 
 4. About example code
 
@@ -67,12 +68,13 @@ pip install ExceptNotifier
     Interactive Shell이라는 개념을 고안하여 대화식 세션으로 Python을 부분씩 컴파일할 수 있는 매우 유용한 패키지이지만, IPython에서는 Python과 다르게 `sys.excepthook`에 의한 제어가 프롬프트 반환 직전에 일어나게 되므로 `sys.excepthook`을 사용하여 트레이스백 객체(traceback object)를 받아 오류 메시지를 각 메신저 앱으로 발송하는 것(이하 ExceptNotifier의 "액션" 혹은 "목적"으로 칭함)이 불가능하였습니다. 또한 `excepthook`에 오버라이딩할 클래스는 반드시 `BaseException`을 상속받아야만 하는 Python의 규칙때문에, IPython에서는 `sys.excepthook`을 통해 ExceptNotifier의 액션을 취할 수 있도록 조정하기 어려웠습니다. 오류 발생 시 시스템 종료 순서, 호출되는 클래스와 메서드들이 상이하였기 때문에 다른 방법을 통해 ExceptNotifier의 목적을 달성하여야만 했습니다.
     처음에는 `magics`를 통한 구현(magic line)을 고려하였으나, 매번 셸에서 magic line을 반복하여 선언해 줘야 하는 번거로운 시나리오가 예상되었습니다. 목표한 패키지 유즈 케이스가 '사용자 부재 시 원격으로 Python 프로그램의 상태를 체크하는 것'이기 때문에 코드의 시공간적 효율이 다소 떨어지더라도 사용자 편의성에 집중하기로 결정하였습니다. 따라서, 한 번만 오버라이딩하여도 편하게 반복 사용할 수 있는 방법을 고민하였고, 사용자화할 수 있는 메서드들을 찾던 도중 `set_custom_exc`을 발견하였습니다. `set_custom_exc`는 메인 루프(특히 run_code() 메서드)에서 exc_tuple의 예외가 발생할 경우 호출되는 사용자 지정 예외 처리기입니다. `set_custom_exc`의 핸들러는 구조화된 트레이스 백 객체나 None을 반환하도록 설계되어 있으므로 트레이스 백 객체를 리턴 받는 프로세스 도중에 ExceptNotifier의 액션을 구현하였습니다. 
     
+    *참조:*
+    [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html), [set_custom_exc](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html), [BaseException](https://docs.python.org/3/library/exceptions.html)
+    
 - About Examples
 
-     설명을 위해 Python에서는 예제에서는 ExceptTelegram과 같이 오버라이딩 된 `sys.excepthook`을 except문에서 호출하는 방식을 사용하였으나, `sys.excepthook`에 한번 오버라이딩한 뒤 간단히 except문에서 raise를 호출하여서 사용할 수 있고, Ipython에서는 `set_custom_exc`로 `Exception`에 사용자 지정함수에 한번 오버라이딩한 뒤 `except`에서 `raise`를 호출하는 것으로 원하는 ExceptNotifier의 액션을 반복해서 취할 수 있습니다. 또한, 예제에서는 ExceptTelegram.__call__혹은 SuccessTelegram().__call__()등을 사용하였으나 이는 이해를 돕기 위한 표현으로 더 간략하게 변경하여 사용하실 수도 있습니다.
+     설명을 위해 Python에서는 예제에서는 ExceptTelegram과 같이 오버라이딩 된 `sys.excepthook`을 except문에서 호출하는 방식을 사용하였으나, `sys.excepthook`에 한번 오버라이딩한 뒤 간단히 except문에서 raise를 호출하여서 사용할 수 있고, Ipython에서는 `set_custom_exc`로 `Exception`에 사용자 지정함수에 한번 오버라이딩한 뒤 `except`에서 `raise`를 호출하는 것으로 원하는 ExceptNotifier의 액션을 반복해서 취할 수 있습니다. 또한, 예제에서는 `ExceptTelegram.__call__`혹은 `SuccessTelegram().__call__()`등을 사용하였으나 이는 이해를 돕기 위한 표현으로 더 간략하게 변경하여 사용하실 수도 있습니다.
 
-    *참조:*
-    [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html), [set_custom_exc](https://ipython.readthedocs.io/en/stable/api/generated/IPython.core.interactiveshell.html)
 
 
 - 환경변수
