@@ -8,12 +8,9 @@ layout: post
 
 ![](https://dsdanielpark.github.io/assets/profile/callme.png)
 
-Advice, encouragement, or any type of inquiry is always welcome. Please feel free to contact me through the GitHub issue page, email, or any other convenient method. I am always open to new opportunities and ideas. I would be grateful to review any proposals for side project collaborations. My main focus is on Python development, possessing intermediate to advanced skills in AI models, data analysis, and machine learning. Additionally, I have knowledge and certifications in Solidity and Golang, as well as a shallow understanding and interest in backend and frontend development. I always enjoy creating new things with a learning mindset.
+Your advice, encouragement, or inquiries of any kind are always appreciated. Don't hesitate to get in touch via the GitHub issue page, email, or whichever method suits you best. I remain open to new opportunities and ideas, and I'm happy to consider any side project collaboration proposals. My primary expertise lies in Python development, with intermediate to advanced abilities in AI models, data analysis, and machine learning. I also have knowledge and certifications in Solidity and Golang, and a keen interest in backend and frontend development. Embracing a learning mindset, I continuously find joy in creating new things.
 
 
 - E-mail: parkminwoo1991@gmail.com
 - Github: [https://github.com/dsdanielpark](https://github.com/dsdanielpark)
 - Linked-in: [https://www.linkedin.com/in/dsdanielpark](https://www.linkedin.com/in/dsdanielpark)
-- Pypi: [https://pypi.org/user/archi-park](https://pypi.org/user/archi-park)
-- Huggingface: [https://huggingface.co/danielpark](https://huggingface.co/danielpark)
-- Dockerhub: [https://hub.docker.com/u/parkminwoo91](https://huggingface.co/danielpark)
