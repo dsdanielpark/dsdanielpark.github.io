@@ -52,6 +52,24 @@ pip install ExceptNotifier
 
 <br><br>
 
+### 한국어
+
+#### Except Notifier
+Python 패키지 Except Notifier는 트레이스 백 된 오류 메시지를 포함하여 다양한 정보를 원하시는 메신저나 이메일을 통해서 발송해드립니다. 설치 후, 메시징 플랫폼이 요구하는 API나 Web Hook URL등을 환경변수로 설정하시면, try-except문을 통해 에러가 발생하였을 경우, 혹은 원하는 코드라인에서 자동으로 메시지를 발송할 수 있습니다.
+
+또한 Open AI의 ChatGPT API를 통해 디버깅에 대한 힌트와 정보도 받아보실 수 있습니다.
+
+#### 설치하기
+```
+pip install ExceptNotifier
+```
+#### 깃 허브 저장소
+<https://github.com/dsdanielpark/ExceptNotifier>
+
+#### 문서
+<https://exceptnotifier.readthedocs.io/en/latest/>
+
+
 #### 개발자 노트
 
 - ExceptNotifier in Python
