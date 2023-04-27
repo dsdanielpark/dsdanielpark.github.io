@@ -68,6 +68,7 @@ pip install ExceptNotifier
     처음에는 `magics`를 통한 구현(magic line)을 고려하였으나, 매번 셸에서 magic line을 반복하여 선언해 줘야 하는 번거로운 시나리오가 예상되었습니다. 목표한 패키지 유즈 케이스가 '사용자 부재 시 원격으로 Python 프로그램의 상태를 체크하는 것'이기 때문에 코드의 시공간적 효율이 다소 떨어지더라도 사용자 편의성에 집중하기로 결정하였습니다. 따라서, 한 번만 오버라이딩하여도 편하게 반복 사용할 수 있는 방법을 고민하였고, 사용자화할 수 있는 메서드들을 찾던 도중 `set_custom_exc`을 발견하였습니다. `set_custom_exc`는 메인 루프(특히 run_code() 메서드)에서 exc_tuple의 예외가 발생할 경우 호출되는 사용자 지정 예외 처리기입니다. `set_custom_exc`의 핸들러는 구조화된 트레이스 백 객체나 None을 반환하도록 설계되어 있으므로 트레이스 백 객체를 리턴 받는 프로세스 도중에 ExceptNotifier의 액션을 구현하였습니다. 
     
 - About Examples
+
      설명을 위해 Python에서는 예제에서는 ExceptTelegram과 같이 오버라이딩 된 `sys.excepthook`을 except문에서 호출하는 방식을 사용하였으나, `sys.excepthook`에 한번 오버라이딩한 뒤 간단히 except문에서 raise를 호출하여서 사용할 수 있고, Ipython에서는 `set_custom_exc`로 `Exception`에 사용자 지정함수에 한번 오버라이딩한 뒤 `except`에서 `raise`를 호출하는 것으로 원하는 ExceptNotifier의 액션을 반복해서 취할 수 있습니다. 또한, 예제에서는 ExceptTelegram.__call__혹은 SuccessTelegram().__call__()등을 사용하였으나 이는 이해를 돕기 위한 표현으로 더 간략하게 변경하여 사용하실 수도 있습니다.
 
     *참조:*
