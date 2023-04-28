@@ -7,11 +7,4 @@ layout: post
 ---
 
  - **url:** <https://arxiv.org/abs/2303.08774>
- - **abstract:** By decomposing the image formation process into a sequential
-    application of denoising autoencoders, diffusion models (DMs)
-    achieve state-of-the-art synthesis results on image data and beyond.
-    Additionally, their formulation allows for a guiding mechanism to
-    control the image generation process without retraining. However,
-    since these models typically operate directly in pixel space,
-    optimization of powerful DMs often consumes hundreds of GPU days and
-    inference is expensive due to sequential evaluations. To enable DM
+ - **abstract:** We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.
