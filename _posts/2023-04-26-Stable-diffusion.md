@@ -6,6 +6,9 @@ category: stablediffusion
 layout: post
 ---
 
+프로그램에 의해 색인 및 연구 참고용 논문들을 자동 생성합니다. 논문들은 인용으로 서로 연결되어있는 무향 그래프의 형태로 정렬됩니다.
+The program automatically generates articles for indexing and research reference. Papers are arranged in an undirected graph, linked to each other by citations.
+
 - Related Project: Private
 - Project Status: 1 Alpha
 - Author: MinWoo Park
