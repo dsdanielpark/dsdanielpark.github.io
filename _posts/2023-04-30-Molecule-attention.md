@@ -6,8 +6,8 @@ category: life
 layout: post
 ---
 
-프로그램에 의해 색인 및 연구 참고용 논문들을 자동 생성합니다. 논문들은 인용으로 서로 연결되어있는 무향 그래프의 형태로 정렬됩니다.
-The program automatically generates articles for indexing and research reference. Papers are arranged in an undirected graph, linked to each other by citations.
+> 배치 프로그램에 의해 색인 및 연구 참고용 논문들을 자동 생성합니다. 논문들은 인용으로 서로 연결되어있는 무향 그래프의 형태로 정렬됩니다. he program automatically generates articles for indexing and research reference. Papers are arranged in an undirected graph, linked to each other by citations.
+
 
 - Related Project: Private 
 - Project Status: 1 Alpha
@@ -17,9 +17,14 @@ The program automatically generates articles for indexing and research reference
 
 Paper and domain search for molecular modeling
 
+## Main Paper
+
 ### Attention-Based Graph Neural Network for Molecular Solubility Prediction
  - **url:** <https://pubs.acs.org/doi/10.1021/acsomega.2c06702>
  - **abstract:** Drug discovery (DD) research is aimed at the discovery of new medications. Solubility is an important physicochemical property in drug development. Active pharmaceutical ingredients (APIs) are essential substances for high drug efficacy. During DD research, aqueous solubility (AS) is a key physicochemical attribute required for API characterization. High-precision in silico solubility prediction reduces the experimental cost and time of drug development. Several artificial tools have been employed for solubility prediction using machine learning and deep learning techniques. This study aims to create different deep learning models that can predict the solubility of a wide range of molecules using the largest currently available solubility data set. Simplified molecular-input line-entry system (SMILES) strings were used as molecular representation, models developed using simple graph convolution, graph isomorphism network, graph attention network, and AttentiveFP network. Based on the performance of the models, the AttentiveFP-based network model was finally selected. The model was trained and tested on 9943 compounds. The model outperformed on 62 anticancer compounds with metric Pearson correlation R2 and root-mean-square error values of 0.52 and 0.61, respectively. AS can be improved by graph algorithm improvement or more molecular properties addition.
+
+
+## Related Papers
 
 ### A self-attention based message passing neural network for predicting molecular lipophilicity and aqueous solubility
 
@@ -32,7 +37,6 @@ Paper and domain search for molecular modeling
  - **abstract:** Designing a single neural network architecture that performs competitively across a range of molecule property prediction tasks remains largely an open challenge, and its solution may unlock a widespread use of deep learning in the drug discovery industry. To move towards this goal, we propose Molecule Attention Transformer (MAT). Our key innovation is to augment the attention mechanism in Transformer using inter-atomic distances and the molecular graph structure. Experiments show that MAT performs competitively on a diverse set of molecular prediction tasks. Most importantly, with a simple self-supervised pretraining, MAT requires tuning of only a few hyperparameter values to achieve state-of-the-art performance on downstream tasks. Finally, we show that attention weights learned by MAT are interpretable from the chemical point of view.
 
 
-## Main Paper
 ### Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/1cb789ab8925bda02758bcb69eb0ed1547b5f4b9>
@@ -43,7 +47,6 @@ Paper and domain search for molecular modeling
 - **doi:** 10.1021/acscentsci.7b00512 
 - **pmid:** 29392184 
 
-## Related Papers
 ### Deep learning for molecular generation and optimization - a review of the state of the art 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/b2029e552d620600fd6f542ba0e11e39d42c3431>

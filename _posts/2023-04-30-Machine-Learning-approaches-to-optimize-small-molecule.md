@@ -6,14 +6,15 @@ category: life
 layout: post
 ---
 
-프로그램에 의해 색인 및 연구 참고용 논문들을 자동 생성합니다. 논문들은 인용으로 서로 연결되어있는 무향 그래프의 형태로 정렬됩니다.
-The program automatically generates articles for indexing and research reference. Papers are arranged in an undirected graph, linked to each other by citations.
+> 배치 프로그램에 의해 색인 및 연구 참고용 논문들을 자동 생성합니다. 논문들은 인용으로 서로 연결되어있는 무향 그래프의 형태로 정렬됩니다. he program automatically generates articles for indexing and research reference. Papers are arranged in an undirected graph, linked to each other by citations.
+
 
 - Related Project: Private 
 - Project Status: 1 Alpha
 - Date: 2023-04
 
 ## Main Paper
+
 ### Machine learning approaches to optimize small-molecule inhibitors for RNA targeting
 - **year:** 2022 
 - **url:** <https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00583-x> 
@@ -36,6 +37,7 @@ The program automatically generates articles for indexing and research reference
 
 
 ## Related Papers
+
 ### Combining Machine Learning and Computational Chemistry for Predictive Insights Into Chemical Systems
 - **year:** 2021
 - **url:** <https://pubs.acs.org/doi/10.1021/acs.chemrev.1c00107> 
