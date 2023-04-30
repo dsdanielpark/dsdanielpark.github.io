@@ -6,15 +6,15 @@ category: package
 layout: post
 ---
 
-- Related Project: ExceptNotifier
-- Project Status: 2 Pre-Alpha
-- Author: MinWoo Park
-- Date: 2023-04
 
 The ExceptNotifier Python package offers a flexible approach to receiving notifications by enhancing Python's try-except statement. This package enables you to receive alerts through various messaging applications or emails.
 
 With ExceptNotifier, you can obtain detailed compilation errors, including debug information, sent directly to your preferred messaging platform or email. By integrating OpenAI's ChatGPT, you can receive additional error code information as long as you provide the required API model name and key. This feature ensures that error handling and notifications are more informative and accessible, streamlining your debugging process.
 
+- Related Project: ExceptNotifier
+- Project Status: 2 Pre-Alpha
+- Author: MinWoo Park
+- Date: 2023-04
 
 <br>
 
