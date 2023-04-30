@@ -6,6 +6,10 @@ category: nlp
 layout: post
 ---
 
+- Related Project: NLP
+- Project Status: 1 Alpha
+- Author: MinWoo Park
+- Date: 2023-04
 
 
  - **url**: <https://arxiv.org/abs/2303.18223>

@@ -6,7 +6,10 @@ category: stablediffusion
 layout: post
 ---
 
-
+- Related Project: Private
+- Project Status: 1 Alpha
+- Author: MinWoo Park
+- Date: 2023-04
 
 ## Main Paper
 
