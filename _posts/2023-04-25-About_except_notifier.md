@@ -1,7 +1,7 @@
 ---
 title: About ExceptNotifier 
 author: Daniel Park
-date: 2023-04-26
+date: 2023-04-25
 category: package
 layout: post
 ---

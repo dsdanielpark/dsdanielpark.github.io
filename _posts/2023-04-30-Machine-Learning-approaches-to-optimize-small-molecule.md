@@ -36,3 +36,7 @@ The program automatically generates articles for indexing and research reference
 
 
 ## Related Papers
+### Combining Machine Learning and Computational Chemistry for Predictive Insights Into Chemical Systems
+- **year:** 2021
+- **url:** <https://pubs.acs.org/doi/10.1021/acs.chemrev.1c00107> 
+- **abstract:** Machine learning models are poised to make a transformative impact on chemical sciences by dramatically accelerating computational algorithms and amplifying insights available from computational chemistry methods. However, achieving this requires a confluence and coaction of expertise in computer science and physical sciences. This Review is written for new and experienced researchers working at the intersection of both fields. We first provide concise tutorials of computational chemistry and machine learning methods, showing how insights involving both can be achieved. We follow with a critical review of noteworthy applications that demonstrate how computational chemistry and machine learning can be used together to provide insightful (and useful) predictions in molecular and materials modeling, retrosyntheses, catalysis, and drug design.
