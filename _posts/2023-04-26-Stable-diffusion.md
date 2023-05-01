@@ -6,7 +6,7 @@ category: stablediffusion
 layout: post
 ---
 
-> 배치 프로그램에 의해 색인 및 연구 참고용 논문들을 자동 생성합니다. 논문들은 인용으로 서로 연결되어있는 무향 그래프의 형태로 정렬됩니다. he program automatically generates articles for indexing and research reference. Papers are arranged in an undirected graph, linked to each other by citations.
+> 배치성 프로그램으로 진행하고 있는 연구에 참고될만한 논문들을 자동 생성합니다. 논문들은 인용 관계로 서로 연결되어 있으며, 인용 횟수 순으로 정렬되어 있습니다. The batch program generates research papers that can be referenced in my ongoing studies. These papers are connected to each other through citation relationships and are sorted by the number of citations.
 
 - Related Project: Private
 - Project Status: 1 Alpha
