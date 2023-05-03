@@ -1034,7 +1034,7 @@ layout: post
     corresponding reverse-time SDE that transforms the prior
     distribution back into the data distribution by slowly removing the
     noise. Crucially, the reverse-time SDE depends only on the
-    time-dependent gradient field (`\aka`{=latex}, score) of the
+    time-dependent gradient field, score of the
     perturbed data distribution. By leveraging advances in score-based
     generative modeling, we can accurately estimate these scores with
     neural networks, and use numerical SDE solvers to generate samples.
