@@ -90,7 +90,7 @@ Paper and domain search for molecular modeling
 ### Planning chemical syntheses with deep neural networks and symbolic AI 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/ef8ab2a0be51a0cd04c2c0f01adfae956a2a84af>
-- **abstract:** S2 TL;DR: This work combines Monte Carlo tree search with an expansion policy network that guides the search, and a filter network to pre-select the most promising retrosynthetic steps that solve for almost twice as many molecules, thirty times faster than the traditional computer-aided search method. 
+- **abstract:** *TL;DR:* This work combines Monte Carlo tree search with an expansion policy network that guides the search, and a filter network to pre-select the most promising retrosynthetic steps that solve for almost twice as many molecules, thirty times faster than the traditional computer-aided search method. 
 - **journal:** Nature 
 - **volume:** 555 
 - **pages:** 604-610 
@@ -100,7 +100,7 @@ Paper and domain search for molecular modeling
 ### A de novo molecular generation method using latent vector based generative adversarial network 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/20b248b56af9a0d1abbda300f0a275a874c7148c>
-- **abstract:** S2 TL;DR: A new deep learning architecture, LatentGAN, which combines an autoencoder and a generative adversarial neural network for de novo molecular design is proposed, indicating that both methods can be used complementarily. 
+- **abstract:** *TL;DR:* A new deep learning architecture, LatentGAN, which combines an autoencoder and a generative adversarial neural network for de novo molecular design is proposed, indicating that both methods can be used complementarily. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 11 
 - **pages:** null 
@@ -119,7 +119,7 @@ Paper and domain search for molecular modeling
 ### On failure modes in molecule generation and optimization. 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/8abe4a49c00c45c1afe10428f2ed24efc6dc4086>
-- **abstract:** S2 TL;DR: This work highlights some unintended failure modes in molecular generation and optimization and how these evade detection by current performance metrics. 
+- **abstract:** *TL;DR:* This work highlights some unintended failure modes in molecular generation and optimization and how these evade detection by current performance metrics. 
 - **journal:** Drug discovery today. Technologies 
 - **volume:** 32-33 
 - **pages:** 55-63 
@@ -138,7 +138,7 @@ Paper and domain search for molecular modeling
 ### Estimation of synthetic accessibility score of drug-like molecules based on molecular complexity and fragment contributions 
 - **year:** 2009 
 - **url:** <https://www.semanticscholar.org/paper/9db40183d62ffae8f9b5a8327511840f6d16ceb1>
-- **abstract:** S2 TL;DR: This method uses historical synthetic knowledge obtained by analyzing information from millions of already synthesized chemicals and considers also molecule complexity, which is sufficiently fast and provides results consistent with estimation of ease of synthesis by experienced medicinal chemists. 
+- **abstract:** *TL;DR:* This method uses historical synthetic knowledge obtained by analyzing information from millions of already synthesized chemicals and considers also molecule complexity, which is sufficiently fast and provides results consistent with estimation of ease of synthesis by experienced medicinal chemists. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 1 
 - **pages:** 8 - 8 
@@ -148,7 +148,7 @@ Paper and domain search for molecular modeling
 ### Optimization of Molecules via Deep Reinforcement Learning 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/2ba00083a72558d45e4baecff0425ef6272f7a40>
-- **abstract:** S2 TL;DR: Inspired by problems faced during medicinal chemistry lead optimization, the MolDQN model is extended with multi-objective reinforcement learning, which maximizes drug-likeness while maintaining similarity to the original molecule. 
+- **abstract:** *TL;DR:* Inspired by problems faced during medicinal chemistry lead optimization, the MolDQN model is extended with multi-objective reinforcement learning, which maximizes drug-likeness while maintaining similarity to the original molecule. 
 - **journal:** Scientific Reports 
 - **volume:** 9 
 - **pages:** null 
@@ -166,7 +166,7 @@ Paper and domain search for molecular modeling
 ### Molecular de-novo design through deep reinforcement learning 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/d77bc27d16a362e5e1b727904c3789355dda6062>
-- **abstract:** S2 TL;DR: A method to tune a sequence-based generative model for molecular de novo design that through augmented episodic likelihood can learn to generate structures with certain specified desirable properties is introduced. 
+- **abstract:** *TL;DR:* A method to tune a sequence-based generative model for molecular de novo design that through augmented episodic likelihood can learn to generate structures with certain specified desirable properties is introduced. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 9 
 - **pages:** null 
@@ -177,7 +177,7 @@ Paper and domain search for molecular modeling
 ### Quantifying the chemical beauty of drugs. 
 - **year:** 2012 
 - **url:** <https://www.semanticscholar.org/paper/11bce438e2fdc7a7ae5f65c339c757f386f4f48a>
-- **abstract:** S2 TL;DR: The utility of QED is extended by applying it to the problem of molecular target druggability assessment by prioritizing a large set of published bioactive compounds and may also capture the abstract notion of aesthetics in medicinal chemistry. 
+- **abstract:** *TL;DR:* The utility of QED is extended by applying it to the problem of molecular target druggability assessment by prioritizing a large set of published bioactive compounds and may also capture the abstract notion of aesthetics in medicinal chemistry. 
 - **journal:** Nature chemistry 
 - **volume:** 4 2 
 - **pages:** 90-8 
@@ -187,7 +187,7 @@ Paper and domain search for molecular modeling
 ### Multi-objective de novo drug design with conditional graph generative model 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/14f1f267731c89bbff04fce87b223d73168d8a4e>
-- **abstract:** S2 TL;DR: A new de novo molecular design framework is proposed based on a type of sequential graph generators that do not use atom level recurrent units, which is much more tuned for molecule generation and has been scaled up to cover significantly larger molecules in the ChEMBL database. 
+- **abstract:** *TL;DR:* A new de novo molecular design framework is proposed based on a type of sequential graph generators that do not use atom level recurrent units, which is much more tuned for molecule generation and has been scaled up to cover significantly larger molecules in the ChEMBL database. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 10 
 - **pages:** null 
@@ -228,7 +228,7 @@ Paper and domain search for molecular modeling
 ### GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/8913c23081e46a41cc7ced3c2ff379d9cd7afcde>
-- **abstract:** S2 TL;DR: This work proposes to sidestep hurdles associated with linearization of discrete structures by having a decoder output a probabilistic fully-connected graph of a predefined maximum size directly at once by formulated as a variational autoencoder. 
+- **abstract:** *TL;DR:* This work proposes to sidestep hurdles associated with linearization of discrete structures by having a decoder output a probabilistic fully-connected graph of a predefined maximum size directly at once by formulated as a variational autoencoder. 
 - **journal:** ArXiv 
 - **volume:** abs/1802.03480 
 - **pages:** null 
@@ -359,7 +359,7 @@ Paper and domain search for molecular modeling
 ### Molecular generative model based on conditional variational autoencoder for de novo molecular design 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/e4f0bf3074d5ae6d55d22068dd50158dc81b2a0a>
-- **abstract:** S2 TL;DR: A molecular generative model based on the conditional variational autoencoder that can be used to generate drug-like molecules with five target properties and to adjust a single property without changing the others and to manipulate it beyond the range of the dataset is proposed. 
+- **abstract:** *TL;DR:* A molecular generative model based on the conditional variational autoencoder that can be used to generate drug-like molecules with five target properties and to adjust a single property without changing the others and to manipulate it beyond the range of the dataset is proposed. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 10 
 - **pages:** null 
@@ -389,7 +389,7 @@ Paper and domain search for molecular modeling
 ### Deep learning enables rapid identification of potent DDR1 kinase inhibitors 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/d44ac0a7fd4734187bccafc4a2771027b8bb595e>
-- **abstract:** S2 TL;DR: A machine learning model allows the identification of new small-molecule kinase inhibitors in days and is used to discover potent inhibitors of discoidin domain receptor 1 (DDR1), a kinase target implicated in fibrosis and other diseases, in 21 days. 
+- **abstract:** *TL;DR:* A machine learning model allows the identification of new small-molecule kinase inhibitors in days and is used to discover potent inhibitors of discoidin domain receptor 1 (DDR1), a kinase target implicated in fibrosis and other diseases, in 21 days. 
 - **journal:** Nature Biotechnology 
 - **volume:** 37 
 - **pages:** 1038 - 1040 
@@ -423,7 +423,7 @@ Paper and domain search for molecular modeling
 ### The rise of deep learning in drug discovery. 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/89213307256d538942fab6b4ac7ab0dee6936582>
-- **abstract:** S2 TL;DR: The first wave of applications of deep learning in pharmaceutical research has emerged in recent years, and its utility has gone beyond bioactivity predictions and has shown promise in addressing diverse problems in drug discovery. 
+- **abstract:** *TL;DR:* The first wave of applications of deep learning in pharmaceutical research has emerged in recent years, and its utility has gone beyond bioactivity predictions and has shown promise in addressing diverse problems in drug discovery. 
 - **journal:** Drug discovery today 
 - **volume:** 23 6 
 - **pages:** 1241-1250 

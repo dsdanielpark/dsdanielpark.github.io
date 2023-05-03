@@ -276,7 +276,7 @@ layout: post
  - **type:** article-journal
  - **url:** <https://www.semanticscholar.org/paper/2dcef55a07f8607a819c21fe84131ea269cc2e3c>
  - **volume:** abs/1503.03585
- - **abstract:** S2 TL;DR: A novel discrete diffusion probabilistic model
+ - **abstract:** *TL;DR:* A novel discrete diffusion probabilistic model
     prior is proposed which enables parallel prediction of
     Vector-Quantized tokens by using an unconstrained Transformer
     architecture as the backbone and facilitates unconditional

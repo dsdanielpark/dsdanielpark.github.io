@@ -38,7 +38,7 @@ layout: post
 - **pages:** null 
 - **arxivid:** 1802.08786 
 
-![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/04.jpeg)
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/04.jpg)
 
 ## GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models 
 - **year:** 2018 
@@ -46,7 +46,7 @@ layout: post
 - **abstract:** Modeling and generating graphs is fundamental for studying networks in biology, engineering, and social sciences. However, modeling complex distributions over graphs and then efficiently sampling from these distributions is challenging due to the non-unique, high-dimensional nature of graphs and the complex, non-local dependencies that exist between edges in a given graph. Here we propose GraphRNN, a deep autoregressive model that addresses the above challenges and approximates any distribution of graphs with minimal assumptions about their structure. GraphRNN learns to generate graphs by training on a representative set of graphs and decomposes the graph generation process into a sequence of node and edge formations, conditioned on the graph structure generated so far. In order to quantitatively evaluate the performance of GraphRNN, we introduce a benchmark suite of datasets, baselines and novel evaluation metrics based on Maximum Mean Discrepancy, which measure distances between sets of graphs. Our experiments show that GraphRNN significantly outperforms all baselines, learning to generate diverse graphs that match the structural characteristics of a target set, while also scaling to graphs 50 times larger than previous deep models. 
 - **arxivid:** 1802.08773 
 
-
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/05.jpg)
 
 ## Constrained Graph Variational Autoencoders for Molecule Design 
 - **year:** 2018 
@@ -72,15 +72,19 @@ layout: post
 - **pages:** null 
 - **arxivid:** 2001.09382 
 
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/06.jpg)
+
 ## LATION FOR MOLECULAR OPTIMIZATION 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/4e5d0bbe8e488685552dc42cf572b5bb6535c6dc> 
 - **abstract:** We view molecular optimization as a graph-to-graph translation problem. The goal is to learn to map from one molecular graph to another with better properties based on an available corpus of paired molecules. Since molecules can be optimized in different ways, there are multiple viable translations for each input graph. A key challenge is therefore to model diverse translation outputs. Our primary contributions include a junction tree encoder-decoder for learning diverse graph translations along with a novel adversarial training method for aligning distributions of molecules. Diverse output distributions in our model are explicitly realized by low-dimensional latent vectors that modulate the translation process. We evaluate our model on multiple molecular optimization tasks and show that our model outperforms previous state-of-the-art baselines. 
 
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/07.png)
+
 ## Quantifying the chemical beauty of drugs. 
 - **year:** 2012 
 - **url:** <https://www.semanticscholar.org/paper/11bce438e2fdc7a7ae5f65c339c757f386f4f48a> 
-- **abstract:** S2 TL;DR: The utility of QED is extended by applying it to the problem of molecular target druggability assessment by prioritizing a large set of published bioactive compounds and may also capture the abstract notion of aesthetics in medicinal chemistry. 
+- **abstract:** *TL;DR:* The utility of QED is extended by applying it to the problem of molecular target druggability assessment by prioritizing a large set of published bioactive compounds and may also capture the abstract notion of aesthetics in medicinal chemistry. 
 - **journal:** Nature chemistry 
 - **volume:** 4 2 
 - **pages:** 90-8 
@@ -90,13 +94,18 @@ layout: post
 ## Multi-objective de novo drug design with conditional graph generative model 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/14f1f267731c89bbff04fce87b223d73168d8a4e> 
-- **abstract:** S2 TL;DR: A new de novo molecular design framework is proposed based on a type of sequential graph generators that do not use atom level recurrent units, which is much more tuned for molecule generation and has been scaled up to cover significantly larger molecules in the ChEMBL database. 
+- **abstract:** *TL;DR:* A new de novo molecular design framework is proposed based on a type of sequential graph generators that do not use atom level recurrent units, which is much more tuned for molecule generation and has been scaled up to cover significantly larger molecules in the ChEMBL database. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 10 
 - **pages:** null 
 - **doi:** 10.1186/s13321-018-0287-6 
 - **pmid:** 30043127 
 - **arxivid:** 1801.07299 
+
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/08.png)
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/09.png)
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/10.png)
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/11.png)
 
 ## Generating Focused Molecule Libraries for Drug Discovery with Recurrent Neural Networks 
 - **year:** 2017 
@@ -173,7 +182,7 @@ layout: post
 ## GuacaMol: Benchmarking Models for De Novo Molecular Design 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/5bfeb6901db481c08874cfe0ae807d8564513765> 
-- **abstract:** De novo design seeks to generate molecules with required property profiles by virtual design-make-test cycles. With the emergence of deep learning and neural generative models in many application areas, models for molecular design based on neural networks appeared recently and show promising results. However, the new models have not been profiled on consistent tasks, and comparative studies to well-established algorithms have only seldom been performed. To standardize the assessment of both classical and neural models for de novo molecular design, we propose an evaluation framework, GuacaMol, based on a suite of standardized benchmarks. The benchmark tasks encompass measuring the fidelity of the models to reproduce the property distribution of the training sets, the ability to generate novel molecules, the exploration and exploitation of chemical space, and a variety of single and multiobjective optimization tasks. The benchmarking open-source Python code and a leaderboard can be found on <https://benevolent.ai/guacamol .> 
+- **abstract:** De novo design seeks to generate molecules with required property profiles by virtual design-make-test cycles. With the emergence of deep learning and neural generative models in many application areas, models for molecular design based on neural networks appeared recently and show promising results. However, the new models have not been profiled on consistent tasks, and comparative studies to well-established algorithms have only seldom been performed. To standardize the assessment of both classical and neural models for de novo molecular design, we propose an evaluation framework, GuacaMol, based on a suite of standardized benchmarks. The benchmark tasks encompass measuring the fidelity of the models to reproduce the property distribution of the training sets, the ability to generate novel molecules, the exploration and exploitation of chemical space, and a variety of single and multiobjective optimization tasks. The benchmarking open-source Python code and a leaderboard can be found on <https://benevolent.ai/guacamol> 
 - **journal:** Journal of chemical information and modeling 
 - **volume:** 59 3 
 - **pages:** 1096-1108 
@@ -202,7 +211,7 @@ layout: post
 ## MolGAN: An implicit generative model for small molecular graphs 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/def1049b5aae96c8e1eab0ca58d77ac9c2f0e3e9> 
-- **abstract:** S2 TL;DR: MolGAN is introduced, an implicit, likelihood-free generative model for small molecular graphs that circumvents the need for expensive graph matching procedures or node ordering heuris-tics of previous likelihood-based methods. 
+- **abstract:** *TL;DR:* MolGAN is introduced, an implicit, likelihood-free generative model for small molecular graphs that circumvents the need for expensive graph matching procedures or node ordering heuris-tics of previous likelihood-based methods. 
 - **journal:** ArXiv 
 - **volume:** abs/1805.11973 
 - **pages:** null 
@@ -271,7 +280,7 @@ layout: post
 ## Estimation of synthetic accessibility score of drug-like molecules based on molecular complexity and fragment contributions 
 - **year:** 2009 
 - **url:** <https://www.semanticscholar.org/paper/9db40183d62ffae8f9b5a8327511840f6d16ceb1> 
-- **abstract:** S2 TL;DR: This method uses historical synthetic knowledge obtained by analyzing information from millions of already synthesized chemicals and considers also molecule complexity, which is sufficiently fast and provides results consistent with estimation of ease of synthesis by experienced medicinal chemists. 
+- **abstract:** *TL;DR:* This method uses historical synthetic knowledge obtained by analyzing information from millions of already synthesized chemicals and considers also molecule complexity, which is sufficiently fast and provides results consistent with estimation of ease of synthesis by experienced medicinal chemists. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 1 
 - **pages:** 8 - 8 
@@ -281,7 +290,7 @@ layout: post
 ## Optimization of Molecules via Deep Reinforcement Learning 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/2ba00083a72558d45e4baecff0425ef6272f7a40> 
-- **abstract:** S2 TL;DR: Inspired by problems faced during medicinal chemistry lead optimization, the MolDQN model is extended with multi-objective reinforcement learning, which maximizes drug-likeness while maintaining similarity to the original molecule. 
+- **abstract:** *TL;DR:* Inspired by problems faced during medicinal chemistry lead optimization, the MolDQN model is extended with multi-objective reinforcement learning, which maximizes drug-likeness while maintaining similarity to the original molecule. 
 - **journal:** Scientific Reports 
 - **volume:** 9 
 - **pages:** null 
@@ -302,7 +311,7 @@ layout: post
 ## Molecular de-novo design through deep reinforcement learning 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/d77bc27d16a362e5e1b727904c3789355dda6062> 
-- **abstract:** S2 TL;DR: A method to tune a sequence-based generative model for molecular de novo design that through augmented episodic likelihood can learn to generate structures with certain specified desirable properties is introduced. 
+- **abstract:** *TL;DR:* A method to tune a sequence-based generative model for molecular de novo design that through augmented episodic likelihood can learn to generate structures with certain specified desirable properties is introduced. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 9 
 - **pages:** null 
@@ -313,7 +322,7 @@ layout: post
 ## GraphVAE: Towards Generation of Small Graphs Using Variational Autoencoders 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/8913c23081e46a41cc7ced3c2ff379d9cd7afcde> 
-- **abstract:** S2 TL;DR: This work proposes to sidestep hurdles associated with linearization of discrete structures by having a decoder output a probabilistic fully-connected graph of a predefined maximum size directly at once by formulated as a variational autoencoder. 
+- **abstract:** *TL;DR:* This work proposes to sidestep hurdles associated with linearization of discrete structures by having a decoder output a probabilistic fully-connected graph of a predefined maximum size directly at once by formulated as a variational autoencoder. 
 - **doi:** 10.1007/978-3-030-01418-6_41 
 - **arxivid:** 1802.03480 
 
@@ -331,7 +340,7 @@ layout: post
 ## Mol-CycleGAN: a generative model for molecular optimization 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/90c97804c31287a35212538e85c5f34c0424341d> 
-- **abstract:** S2 TL;DR: Mol-CycleGAN—a CycleGAN-based model that generates optimized compounds with high structural similarity to the original ones is introduced, and in the task of optimization of penalized logP of drug-like molecules the model significantly outperforms previous results. 
+- **abstract:** *TL;DR:* Mol-CycleGAN—a CycleGAN-based model that generates optimized compounds with high structural similarity to the original ones is introduced, and in the task of optimization of penalized logP of drug-like molecules the model significantly outperforms previous results. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 12 
 - **pages:** null 
@@ -378,7 +387,7 @@ layout: post
 ## Molecular generative model based on conditional variational autoencoder for de novo molecular design 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/e4f0bf3074d5ae6d55d22068dd50158dc81b2a0a> 
-- **abstract:** S2 TL;DR: A molecular generative model based on the conditional variational autoencoder that can be used to generate drug-like molecules with five target properties and to adjust a single property without changing the others and to manipulate it beyond the range of the dataset is proposed. 
+- **abstract:** *TL;DR:* A molecular generative model based on the conditional variational autoencoder that can be used to generate drug-like molecules with five target properties and to adjust a single property without changing the others and to manipulate it beyond the range of the dataset is proposed. 
 - **journal:** Journal of Cheminformatics 
 - **volume:** 10 
 - **pages:** null 
