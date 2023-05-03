@@ -1,5 +1,5 @@
 ---
-title: NeRF
+title: Automatic Chemical Design
 author: Daniel Park
 date: 2023-04-30
 category: life
@@ -24,9 +24,9 @@ layout: post
 - **pmid:** 29532027 
 - **arxivid:** 1610.02415 
 
-![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/01.png)
-![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/02.png)
-![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/03.png)
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/01.jpeg)
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/02.jpeg)
+![](https://dsdanielpark.github.io/assets/post/230504_chemical_design/03.jpeg)
 
 
 ## Syntax-Directed Variational Autoencoder for Structured Data 
