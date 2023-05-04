@@ -1,17 +1,18 @@
 ---
-title: Automatic Chemical Design
+title: [AUTO DRAFT] Automatic Chemical Design
 author: Daniel Park
 date: 2023-04-30
 category: life
 layout: post
 ---
 
+> 이 글은 자동 생성된 초고로, 선행연구를 훑어보고, 색인하기 위한 용도입니다. This draft is automatically generated for the purpose of skimming through prior research and indexing.
 > 배치성 프로그램으로 진행하고 있는 연구에 참고될만한 논문들을 자동 생성합니다. 논문들은 인용 관계로 서로 연결되어 있으며, 인용 횟수 순으로 정렬되어 있습니다. The batch program generates research papers that can be referenced in my ongoing studies. These papers are connected to each other through citation relationships and are sorted by the number of citations.
 
 
 - Related Project: Private 
 - Project Status: 1 Alpha
-- Date: 2023-04
+- Date: 2023-05
 
 ## Automatic Chemical Design Using a Data-Driven Continuous Representation of Molecules 
 - **year:** 2016 
