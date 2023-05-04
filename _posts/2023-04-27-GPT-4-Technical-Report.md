@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT]  GPT-4 Technical Report
+title: AUTO DRAFT - GPT-4 Technical Report
 author: Daniel Park
 date: 2023-04-27
 category: nlp

@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT] Automatic Chemical Design
+title: AUTO DRAFT - Automatic Chemical Design
 author: Daniel Park
 date: 2023-04-30
 category: life

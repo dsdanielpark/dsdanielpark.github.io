@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT] High-Resolution Image Synthesis with Latent Diffusion Models
+title: AUTO DRAFT - High-Resolution Image Synthesis with Latent Diffusion Models
 author: Daniel Park
 date: 2023-04-26
 category: stablediffusion

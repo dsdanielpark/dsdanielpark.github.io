@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT] A survey of large language models
+title: AUTO DRAFT - A survey of large language models
 author: Daniel Park
 date: 2023-04-27
 category: nlp

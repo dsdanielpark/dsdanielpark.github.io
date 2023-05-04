@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT] Subtypes of Parkinson Disease 
+title: AUTO DRAFT - Subtypes of Parkinson Disease 
 author: Daniel Park
 date: 2023-05-05
 category: life

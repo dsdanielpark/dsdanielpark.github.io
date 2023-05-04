@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT] AI for life Trends in artificial intelligence for biotechnology
+title: AUTO DRAFT - AI for life Trends in artificial intelligence for biotechnology
 author: Daniel Park
 date: 2023-04-27
 category: bio

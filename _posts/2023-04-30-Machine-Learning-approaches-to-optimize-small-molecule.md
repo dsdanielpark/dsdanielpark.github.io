@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT]  Machine learning approaches to optimize small-molecule inhibitors for RNA targeting
+title: AUTO DRAFT -  Machine learning approaches to optimize small-molecule inhibitors for RNA targeting
 author: Daniel Park
 date: 2023-04-30
 category: life

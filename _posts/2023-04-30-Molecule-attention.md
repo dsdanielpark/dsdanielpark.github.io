@@ -1,5 +1,5 @@
 ---
-title: [AUTO DRAFT]  Attention-Based Molecule Modeling
+title: AUTO DRAFT - Attention-Based Molecule Modeling
 author: Daniel Park
 date: 2023-04-30
 category: life
