@@ -72,6 +72,9 @@ South Korea, Seoul.
   - Thermal energy efficiency and optimization of Sihwa Banwol Industrial Complex (2021)
   - Development of Body type classification and prediction model based on time‑series big data (2022)
 
+
+*Portpolio and reference available upon request*
+
  
 #### Sites
 - PyPi link: [https://pypi.org/user/archi-park/](https://pypi.org/user/archi-park/)
