@@ -54,7 +54,7 @@ layout: post
 ### Longitudinal assessment of tau and amyloid beta in cerebrospinal fluid of Parkinson disease 
 - **year:** 2013 
 - **url:** <https://www.semanticscholar.org/paper/50d69bdc17cd8e7063393e3b1882ebc9ee4d178a> 
-- **abstract:** S2 TL;DR: Results are one of the very first pieces of evidence suggesting that tau and amyloid beta are critically involved in early Parkinson disease progression, potentially by a different mechanism than that in Alzheimer disease, although their applications as Parkinson Disease progression markers will likely require the addition of other proteins. 
+- **abstract:** *TL;DR:* Results are one of the very first pieces of evidence suggesting that tau and amyloid beta are critically involved in early Parkinson disease progression, potentially by a different mechanism than that in Alzheimer disease, although their applications as Parkinson Disease progression markers will likely require the addition of other proteins. 
 - **journal:** Acta Neuropathologica 
 - **volume:** 126 
 - **pages:** 671-682 
@@ -90,7 +90,7 @@ layout: post
 ### Clinical Parkinson disease subtyping does not predict pathology 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/370ca68929de64ab442f5ebfea881c2c509e02e5> 
-- **abstract:** S2 TL;DR: A new study reinforces the prognostic value of subtypes, but its findings challenge the relevance of pathology to the clinical expression of disease as data-driven Parkinson disease subtypes did not match up with severity or distribution of Lewy or Alzheimer pathologies. 
+- **abstract:** *TL;DR:* A new study reinforces the prognostic value of subtypes, but its findings challenge the relevance of pathology to the clinical expression of disease as data-driven Parkinson disease subtypes did not match up with severity or distribution of Lewy or Alzheimer pathologies. 
 - **journal:** Nature Reviews Neurology 
 - **volume:** 15 
 - **pages:** 189-190 
@@ -110,7 +110,7 @@ layout: post
 ### Bad news and good news in AD, and how to reconcile them 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/b5895e74fa2c036093775d2f758384494d14506f> 
-- **abstract:** S2 TL;DR: 2018 saw the failure of several large clinical trials that were based on the premise that reduction of amyloid-β levels is an effective treatment for symptomatic Alzheimer disease, yet, over the same time period, good news also emerged about the diagnostic value of tau PET imaging. 
+- **abstract:** *TL;DR:* 2018 saw the failure of several large clinical trials that were based on the premise that reduction of amyloid-β levels is an effective treatment for symptomatic Alzheimer disease, yet, over the same time period, good news also emerged about the diagnostic value of tau PET imaging. 
 - **journal:** Nature Reviews Neurology 
 - **volume:** 15 
 - **pages:** 61-62 
@@ -160,7 +160,7 @@ layout: post
 ### Characteristics of alpha-synucleinopathy in centenarians 
 - **year:** 2006 
 - **url:** <https://www.semanticscholar.org/paper/5a43f3fa82ecaef98e8266364e7689a0f5b16543> 
-- **abstract:** S2 TL;DR: There is a high frequency of alpha-synucleinopathy in centenarians, SP-positive and AS-positive lesions may involve a synergistic interaction, and most cases showed a widespread distribution of AS- positive structures except for one patient, in whose brain only the medulla was involved. 
+- **abstract:** *TL;DR:* There is a high frequency of alpha-synucleinopathy in centenarians, SP-positive and AS-positive lesions may involve a synergistic interaction, and most cases showed a widespread distribution of AS- positive structures except for one patient, in whose brain only the medulla was involved. 
 - **journal:** Acta Neuropathologica 
 - **volume:** 111 
 - **pages:** 450-458 
@@ -180,7 +180,7 @@ layout: post
 ### How stable are Parkinson's disease subtypes in de novo patients: Analysis of the PPMI cohort? 
 - **year:** 2016 
 - **url:** <https://www.semanticscholar.org/paper/d80f77ce79fbcc8a392d8c16ee8d67dc3f110e48> 
-- **abstract:** S2 TL;DR: TD versus PIGD subtype classification has substantial variability over first year in PD de novo cohort specifically for PIGd subtype, and dopaminergic therapy does not impact the change of the PD subtype. 
+- **abstract:** *TL;DR:* TD versus PIGD subtype classification has substantial variability over first year in PD de novo cohort specifically for PIGd subtype, and dopaminergic therapy does not impact the change of the PD subtype. 
 - **journal:** Parkinsonism & related disorders 
 - **volume:** 28 
 - **pages:** 62-7 
@@ -190,7 +190,7 @@ layout: post
 ### CSF biomarkers β-amyloid, tau proteins and a-synuclein in the differential diagnosis of Parkinson-plus syndromes 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/1eefcdc72bc44b17e790ced0cccfa771d5ffd2fa> 
-- **abstract:** S2 TL;DR: CSF biochemical profile analysis is important in distinguishing AD patients with a CBS phenotype from non-AD CBS patients and the τT/Aβ42 ratio is useful in the differential diagnosis of MSA from PD. 
+- **abstract:** *TL;DR:* CSF biochemical profile analysis is important in distinguishing AD patients with a CBS phenotype from non-AD CBS patients and the τT/Aβ42 ratio is useful in the differential diagnosis of MSA from PD. 
 - **journal:** Journal of the Neurological Sciences 
 - **volume:** 382 
 - **pages:** 91-95 
@@ -200,7 +200,7 @@ layout: post
 ### The neuromythology of Parkinson's Disease. 
 - **year:** 2004 
 - **url:** <https://www.semanticscholar.org/paper/5ed2cfd9c413bea79766008bab4da7efb0192df1> 
-- **abstract:** S2 TL;DR: Over the last century three central points have become the orthodox dogma accepted and taught by those who study Parkinson's Disease, and the authors are beginning to enter an era in which they must look critically at the current evidence to decide whether each dictum can be sustained. 
+- **abstract:** *TL;DR:* Over the last century three central points have become the orthodox dogma accepted and taught by those who study Parkinson's Disease, and the authors are beginning to enter an era in which they must look critically at the current evidence to decide whether each dictum can be sustained. 
 - **journal:** Parkinsonism & related disorders 
 - **volume:** 10 5 
 - **pages:** 319-22 
@@ -230,7 +230,7 @@ layout: post
 ### Subtypes of Parkinson’s Disease: What Do They Tell Us About Disease Progression? 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/8473e9ae5e03996d76380bde9569441330001a0f> 
-- **abstract:** S2 TL;DR: This review aims to summarize the most valid conventional and recent subtyping solutions that have been introduced so far and to update current knowledge with recent discoveries on the association between subtypes and disease progression. 
+- **abstract:** *TL;DR:* This review aims to summarize the most valid conventional and recent subtyping solutions that have been introduced so far and to update current knowledge with recent discoveries on the association between subtypes and disease progression. 
 - **journal:** Current Neurology and Neuroscience Reports 
 - **volume:** 17 
 - **pages:** 1-10 
@@ -258,7 +258,7 @@ layout: post
 ### Fluid and PET biomarkers for amyloid pathology in Alzheimer's disease 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/de68257ebd2a50542a2af064f3f73dbf296ba253> 
-- **abstract:** S2 TL;DR: Fluid and PET biomarkers for Aβ and their application are discussed, indicating that sensitive, specific and robust biomarkers to identify brain amyloidosis are central in AD research. 
+- **abstract:** *TL;DR:* Fluid and PET biomarkers for Aβ and their application are discussed, indicating that sensitive, specific and robust biomarkers to identify brain amyloidosis are central in AD research. 
 - **journal:** Molecular and Cellular Neuroscience 
 - **volume:** 97 
 - **pages:** 3-17 
@@ -268,7 +268,7 @@ layout: post
 ### Experimental animal models of Parkinson's disease: A transition from assessing symptomatology to α-synuclein targeted disease modification 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/894dc171a1b3788ab71ee2578b734d9e33ccaccc> 
-- **abstract:** S2 TL;DR: The transition of well‐established animal models of Parkinson's disease symptomatology to newly developed models of PD pathogenesis are described, with specific focus on methods of viral‐mediated and inoculation of pathogenic &agr;‐synuclein, that aim to aid scientific translation of neuroprotective strategies. 
+- **abstract:** *TL;DR:* The transition of well‐established animal models of Parkinson's disease symptomatology to newly developed models of PD pathogenesis are described, with specific focus on methods of viral‐mediated and inoculation of pathogenic &agr;‐synuclein, that aim to aid scientific translation of neuroprotective strategies. 
 - **journal:** Experimental Neurology 
 - **volume:** 298 
 - **pages:** 172-179 
@@ -323,7 +323,7 @@ layout: post
 ### Reproducibility of data-driven Parkinson's disease subtypes for clinical research. 
 - **year:** 2018 
 - **url:** <https://www.semanticscholar.org/paper/2910cacb8b7cdcd27a99a76341308e5998b526be> 
-- **abstract:** S2 TL;DR: Assessment of reproducibility of previously published data-driven PD subtype classification systems in a well-characterized cohort created for clinical research purposes, the Longitudinal and Biomarker Study in Parkinson's Disease (LABS-PD), raises concerns about the utility of the widely-discussed concept of data- driven PD subtypes. 
+- **abstract:** *TL;DR:* Assessment of reproducibility of previously published data-driven PD subtype classification systems in a well-characterized cohort created for clinical research purposes, the Longitudinal and Biomarker Study in Parkinson's Disease (LABS-PD), raises concerns about the utility of the widely-discussed concept of data- driven PD subtypes. 
 - **journal:** Parkinsonism & related disorders 
 - **volume:** 56 
 - **pages:** 102-106 
@@ -333,7 +333,7 @@ layout: post
 ### Assessment of a prognostic MRI biomarker in early de novo Parkinson's disease 
 - **year:** 2019 
 - **url:** <https://www.semanticscholar.org/paper/adb54e28b85b458c88a0292c84f18fea4a352e94> 
-- **abstract:** S2 TL;DR: A PD-specific network atrophy pattern predicts progression of motor, cognitive, and global outcome in PD, and is a better predictor of prognosis than any of the other tested biomarkers. 
+- **abstract:** *TL;DR:* A PD-specific network atrophy pattern predicts progression of motor, cognitive, and global outcome in PD, and is a better predictor of prognosis than any of the other tested biomarkers. 
 - **journal:** NeuroImage : Clinical 
 - **volume:** 24 
 - **pages:** null 
@@ -343,7 +343,7 @@ layout: post
 ### The Parkinson disease before James Parkinson 
 - **year:** 2012 
 - **url:** <https://www.semanticscholar.org/paper/f24361a0bb5acb20b9c26ddcc8253037a3148f27> 
-- **abstract:** S2 TL;DR: A review of the literature shows that several civilizations had know this disease from long before, despite the fact it was often mistaken for other diseases. 
+- **abstract:** *TL;DR:* A review of the literature shows that several civilizations had know this disease from long before, despite the fact it was often mistaken for other diseases. 
 - **journal:** Neurological Sciences 
 - **volume:** 33 
 - **pages:** 945-948 
@@ -353,7 +353,7 @@ layout: post
 ### Discovery of Parkinson's disease states and disease progression modelling: a longitudinal data study using machine learning. 
 - **year:** 2021 
 - **url:** <https://www.semanticscholar.org/paper/5fda750411f87252b64bf927fc454402b049dd09> 
-- **abstract:** S2 TL;DR: The predictive model discovered non-sequential, overlapping disease progression trajectories, supporting the use of non-deterministic disease progression models, and suggesting static subtype assignment might be ineffective at capturing the full spectrum of Parkinson's disease progression. 
+- **abstract:** *TL;DR:* The predictive model discovered non-sequential, overlapping disease progression trajectories, supporting the use of non-deterministic disease progression models, and suggesting static subtype assignment might be ineffective at capturing the full spectrum of Parkinson's disease progression. 
 - **journal:** The Lancet. Digital health 
 - **volume:** null 
 - **pages:** null 
@@ -363,7 +363,7 @@ layout: post
 ### A novel quantification-driven proteomic strategy identifies an endogenous peptide of pleiotrophin as a new biomarker of Alzheimer’s disease 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/10619681d43cc3a490ec70b1ca7021556db2851d> 
-- **abstract:** S2 TL;DR: The identification of the novel biomarker pleiotrophin 151–166 demonstrates that the quantification-driven proteomic approach is a promising method for biomarker discovery, which may be universally applicable in clinical proteomics. 
+- **abstract:** *TL;DR:* The identification of the novel biomarker pleiotrophin 151–166 demonstrates that the quantification-driven proteomic approach is a promising method for biomarker discovery, which may be universally applicable in clinical proteomics. 
 - **journal:** Scientific Reports 
 - **volume:** 7 
 - **pages:** null 
@@ -383,7 +383,7 @@ layout: post
 ### Motor subtype changes in early Parkinson's disease. 
 - **year:** 2017 
 - **url:** <https://www.semanticscholar.org/paper/77661c847b0af4373d8aba8a362e36d0ae0d7b2b> 
-- **abstract:** S2 TL;DR: The results strongly suggest that classification of motor subtypes in PD can shift with increasing disease duration and is a factor that should be accounted for in clinical practice or in clinical trials. 
+- **abstract:** *TL;DR:* The results strongly suggest that classification of motor subtypes in PD can shift with increasing disease duration and is a factor that should be accounted for in clinical practice or in clinical trials. 
 - **journal:** Parkinsonism & related disorders 
 - **volume:** 43 
 - **pages:** 67-72 
@@ -393,7 +393,7 @@ layout: post
 ### CSF β-Amyloid 1-42 Predicts Progression to Cognitive Impairment in Newly Diagnosed Parkinson Disease 
 - **year:** 2015 
 - **url:** <https://www.semanticscholar.org/paper/46a65782eb0c4ef6c8c0596831b22fe10f4227e4> 
-- **abstract:** S2 TL;DR: CSF β-amyloid 1-42 level at disease onset is an independent predictor of cognitive impairment in early Parkinson’s disease and is associated with higher odds of CI at 2 years. 
+- **abstract:** *TL;DR:* CSF β-amyloid 1-42 level at disease onset is an independent predictor of cognitive impairment in early Parkinson’s disease and is associated with higher odds of CI at 2 years. 
 - **journal:** Journal of Molecular Neuroscience 
 - **volume:** 58 
 - **pages:** 88 - 92 
