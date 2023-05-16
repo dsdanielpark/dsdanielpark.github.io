@@ -39,20 +39,20 @@ South Korea, Seoul.
   - Project Owner: Hyundai Motor Group
   - Development of algorithm and Deep Learning Models for extracting key factors in engineering drawings. [Computer Vision, OpenCV and
   OCR Model]
-  - Develop an algorithm to visualize and analyze noise sources, and to cluster after specifying the location of noise sources. [Computer Vision,
+  - Development of an algorithm to visualize, analyze, cluster, and post-process noise sources for automotive driving noise. [Computer Vision,
   Sound Analysis, Time Serise Data]
   - Hadoop data handling and optimization support through PySpark
 
   [6] Real Estate Market Prediction And Factor Analysis based on big data (2021)
 
   - Project Owner: Microsoft Korea, KB Financial Holdings
-  - Setting data mart up with KB internal data and External data which is collected through crawling software that I made
+  - Setting data mart up with KB internal data and External data which is collected through my crawling software
   - Data analysis and market price prediction modeling based on the analyzed data
   - KB Group Digital Transformation Consulting
 
 
   [7] AI for life (2020-2023)
-  - National Health Insurance(NHI) Data Analysis And Biological Age Calculation Algorithm development and Diseases Prevalence Risk Prediction Algorithm developmen (2020)
+  - National Health Insurance(NHI) Data Analysis And Biological Age Prediction Algorithm development and Diseases Prevalence Risk Prediction Algorithm development (2020)
   - Extraction of information on protein mechanisms/interactions/molecular structures in Alzheimer thesis (2021)
   - Prediction of disease and physical vitality based on animal hair/blood dataset (2021)
   - Body type classification based on time series body shape change data and 100,000 cases of Korean body type data and body shape change
