@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: LLM training
 author: Daniel Park
 date: 2023-05-27
@@ -8,16 +7,6 @@ layout: post
 ---
 
 - Related Project: private 
-=======
-title: GORANI LLM training
-author: Daniel Park
-date: 2023-05-27
-category: life
-layout: post
----
-
-- Related Project: GORANI 
->>>>>>> f7ae4836f695c758da2e2434573e9ffc779e05ec
 - Project Status: 1 Alpha
 - Date: 2023-05
 
