@@ -34,7 +34,7 @@ BENCH_TO_NAME = {
     "truthfulqa_mc": AutoEvalColumn.truthfulqa.name,
 }
  ```
- 참고: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/blob/main/src/auto_leaderboard/load_results.py
+ 참고: <https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/blob/main/src/auto_leaderboard/load_results.py>
  
  그러나 오픈 소스 LLM 진영에서 허깅페이스의 팔콘이 공개되자마자, 팔콘이 허깅페이스의 오픈 리더보드에서 1위를 탈환하였을 뿐만 아니라 여전히 팔콘의 변형 모델(falcon-instruct)이 1위를 고수하는 현 상황에 대해서 저는 오픈 리더보드 정량 지표들의 공정성에 의구심이 들었습니다.
 
@@ -51,7 +51,7 @@ BENCH_TO_NAME = {
 
 ### 01. Open AI - GPT-4 Technical Report
 - **url:** <https://arxiv.org/abs/2303.08774>
-- 
+
 ### 02. Google - PaLM 2 Technical Report
 - **url:** <https://arxiv.org/abs/2305.10403>
 
