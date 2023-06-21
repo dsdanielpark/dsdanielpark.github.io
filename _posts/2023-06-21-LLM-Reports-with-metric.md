@@ -13,7 +13,13 @@ layout: post
 
 일주일간 코딩테스트 2차 전 마지막 업데이트
 
-### 머릿말
+### 개요
+
+관련 링크
+- Hugging Face의 [Open Source LLM Leader Board](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [Open Source LLM Leader Board 시각화 보고서](https://github.com/dsdanielpark/Open-LLM-Leaderboard-Report)
+
+
  Large Language Model(이하 "LLM")에 대한 성능 평가와 관련되어 다양한 방법들이 제시되고 있습니다. LLM을 어떻게 평가하였는지, 또 평가했는지 알아보기 위해 각 LLM 논문들에서 제시한 정량 지표 및 정성적인 평가방법들을 살펴보고자 합니다.
  
  허깅 페이스(Hugging Face)는 팔콘(Falcon)을 출시하기에 몇 일 앞서 Open LLM Leader Board라는 온라인 도커 스페이스를 개설하고, 도커에서 4개의 데이터셋에 대한 결과를 기반으로 오픈 소스 LLM들의 정량적인 평가를 기반으로 순위를 나열하였습니다. 
