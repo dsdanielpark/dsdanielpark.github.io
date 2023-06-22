@@ -1,5 +1,5 @@
 ---
-title: LLM Reports with metric
+title: LLM Reports with metrics
 author: Daniel Park
 date: 2023-06-21
 category: llm
