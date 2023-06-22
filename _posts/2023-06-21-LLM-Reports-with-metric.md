@@ -39,7 +39,7 @@ BENCH_TO_NAME = {
 
  팔콘은 메타의 LLAMA에 후처리 된 대용량 웹 데이터를 기반으로 파인튜닝한 LLM으로 스탠포드의 알파카와 Vicuna 등의 모델등과 큰 차이는 없으나 대용량의 정제된 웹 데이터를 통해 효율적으로 파인튜닝하였다는 것을 내세우며 오픈 LLM 리더보드의 1위를 차지하였고, 이후 많은 오픈 소스 LLM 개발자들은 메타의 LLAMA를 파인튜닝하여 Open LLM Leader Board에서 높은 순위를 기록하기 위해 소숫점 단위 경쟁을 시작하였지만, 정성적으로 오픈 소스 LLM의 성능이 크게 개선되는 것을 체감하지 못하였습니다.
  
- 이런 상황에서 일부 보고서에 따르면 오픈 소스 LLM 모델들이 우위를 보이지 못한다는 것을 보고하였습니다. MIT의 수학 및 전기 및 컴퓨터 공학 교육과목을 다루는 보고서인 "Exploring the MIT Mathematics and EECS Curriculum Using Large Language Models"에 따르면 오픈 소스 LLM 모델들의 성능이 Open AI의 과거 모델보다 우수하지 못하다는 내용이 소개되었습니다. 또한 "CodeT5+: Open Code Large Language Models for Code Understanding and Generation"라는 보고서에서도 오픈 소스 LLM 모델들이 코딩 영역에서 davinci-002보다도 우월하지 않다라는 내용을 보고하였습니다.
+ 이런 상황에서 일부 보고서에 따르면 오픈 소스 LLM 모델들이 우위를 보이지 못한다는 것을 보고하였습니다. MIT의 수학 및 전기 및 컴퓨터 공학 교육과목에 대한 LLM의 성능을 비교한 보고서인 "Exploring the MIT Mathematics and EECS Curriculum Using Large Language Models"에 따르면 오픈 소스 LLM 모델들의 성능이 Open AI의 과거 모델보다 우수하지 못하다는 내용이 소개되었습니다. 또한 "CodeT5+: Open Code Large Language Models for Code Understanding and Generation"라는 보고서에서도 오픈 소스 LLM 모델들이 코딩 영역에서 davinci-002보다도 우월하지 않다라는 내용을 보고하였습니다.
 
  따라서 각 LLM 보고서들의 모델 평가 방법들을 톺아보고, 현재 학습 중인 LLM을 보다 객관적으로 평가할 수 있는 정성/정량 지표들을 준비하고자 합니다.
 
