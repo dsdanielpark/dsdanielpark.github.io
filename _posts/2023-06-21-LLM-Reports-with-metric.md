@@ -20,7 +20,6 @@ layout: post
 
  Large Language Model(이하 "LLM")에 대한 성능 평가와 관련되어 다양한 방법들이 제시되고 있습니다. LLM을 어떻게 평가하였는지, 또 평가했는지 알아보기 위해 각 LLM 논문들에서 제시한 정량 지표 및 정성적인 평가방법들을 살펴보고자 합니다.
  
- #### 정량적인 방법
  허깅 페이스의 Open LLM Leader Board는 LLM을 정량적으로 평가하는 대표적인 도커 스페이스입니다.
  허깅 페이스(Hugging Face)는 팔콘(Falcon)을 출시하기에 몇 일 앞서 Open LLM Leader Board라는 온라인 도커 스페이스를 개설하고, 도커에서 4개의 데이터셋에 대한 정량적인 지표를 근거로 오픈 소스 LLM들의 순위를 메기고 있습니다. 
 
@@ -34,7 +33,7 @@ BENCH_TO_NAME = {
     "truthfulqa_mc": AutoEvalColumn.truthfulqa.name,
 }
  ```
- 참고: https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/blob/main/src/auto_leaderboard/load_results.py
+ **참고: <https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/blob/main/src/auto_leaderboard/load_results.py>**
  
  그러나 '허깅페이스'의 LLM인 '팔콘'이 공개되자마자, '허깅페이스'의 오픈 리더보드에서 1위를 탈환하였을 뿐만 아니라 여전히 팔콘의 변형 모델(falcon-instruct)이 계속해서 1위를 차지하고 있습니다. 오픈 리더보드 개설 시기 뿐만 아니라 Metric들이 팔콘의 트레인 셋에 포함되어있다면, 특정 데이터셋과 Metrics에 적절하게 LLM을 미리 학습했을 가능성을 배제할 수 없기 때문에 오픈 리더보드의 4개의 데이터셋과 Metrics들이 LLM들을 평가하는 보조지표가 될 수 있지만, 공정한 정량지표가 되기에는 무리가 있어보입니다. 즉, 허깅페이스의 Open LLM Leader Board는 허깅페이스의 Falcon을 홍보하기 위한 마케팅 수단 중 하나로 사용되었을 수 있습니다.
 
