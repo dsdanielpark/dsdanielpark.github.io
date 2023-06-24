@@ -14,8 +14,8 @@ layout: post
 ### 개요
 
 관련 링크
-- Hugging Face의 [Open Source LLM Leader Board](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-- [Open Source LLM Leader Board 시각화 보고서](https://github.com/dsdanielpark/Open-LLM-Leaderboard-Report)
+- Hugging Face [Open Source LLM Leader Board](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [Visuallization report of open-source LLM leader board](https://github.com/dsdanielpark/Open-LLM-Leaderboard-Report)
 
 
  Various methods have been proposed regarding the performance evaluation of Large Language Models (LLMs). To understand how LLMs are evaluated and the evaluation methods employed, we intend to examine the quantitative metrics and qualitative evaluation approaches presented in each LLM paper.
@@ -32,7 +32,7 @@ BENCH_TO_NAME = {
     "truthfulqa_mc": AutoEvalColumn.truthfulqa.name,
 }
  ```
- **참고: <https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/blob/main/src/auto_leaderboard/load_results.py>**
+ **Refer: <https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard/blob/main/src/auto_leaderboard/load_results.py>**
  
  However, as soon as "Falcon," the LLM from Hugging Face, was released, it not only reclaimed the top position on Hugging Face's open leaderboard but also continues to dominate with its variant model, Falcon-Instruct, holding the first place. Considering that the open leaderboard was established at a certain time and metrics are included in Falcon's training set, it cannot be ruled out that the LLM was pre-trained appropriately for specific datasets and metrics. Thus, while the four datasets and metrics on the open leaderboard can serve as supplementary indicators for evaluating LLMs, it appears challenging for them to provide a fair quantitative assessment. In other words, Hugging Face's Open LLM Leaderboard might have been utilized as a marketing tool to promote Falcon.
  
