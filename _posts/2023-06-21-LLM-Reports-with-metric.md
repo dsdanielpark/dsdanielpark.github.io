@@ -11,9 +11,9 @@ layout: post
 - Date: 2023-06-21
 
 
-### 개요
+### Introduction
 
-관련 링크
+Links
 - Hugging Face [Open Source LLM Leader Board](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [Visuallization report of open-source LLM leader board](https://github.com/dsdanielpark/Open-LLM-Leaderboard-Report)
 
