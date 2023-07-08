@@ -68,6 +68,13 @@ BENCH_TO_NAME = {
 - **date:** 2023.02.27 for v1
 - **abstract:** We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community.
 
+### Meta - OPT 
+#### OPT: Open Pre-trained Transformer Language Models
+- **url:** <https://arxiv.org/abs/2205.01068>
+- **pdf:** <https://arxiv.org/pdf/2205.01068>
+- **date:** 2022.05.02 for v1
+- **abstract:** Large language models, which are often trained for hundreds of thousands of compute days, have shown remarkable capabilities for zero- and few-shot learning. Given their computational cost, these models are difficult to replicate without significant capital. For the few that are available through APIs, no access is granted to the full model weights, making them difficult to study. We present Open Pre-trained Transformers (OPT), a suite of decoder-only pre-trained transformers ranging from 125M to 175B parameters, which we aim to fully and responsibly share with interested researchers. We show that OPT-175B is comparable to GPT-3, while requiring only 1/7th the carbon footprint to develop. We are also releasing our logbook detailing the infrastructure challenges we faced, along with code for experimenting with all of the released models.
+- **github:** https://github.com/facebookresearch/metaseq
 
 
 ### LaMDA: Language Models for Dialog Applications
